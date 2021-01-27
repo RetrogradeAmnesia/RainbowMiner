@@ -1,0 +1,13 @@
+;Automatic config file created by RainbowMiner
+;Do not edit!
+mport=-53401
+webPort = 0
+Watchdog = false
+noLog = true
+
+[KawPow]
+wallet=1NV7obQpcLyERvmmv6WETmGWvVcZax28fo
+rigName=DesktopPC
+pool1 = kawpow.in.nicehash.com:3385
+devices =0
+rigPassword=x

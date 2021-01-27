@@ -1,0 +1,34 @@
+{
+  "api": {
+    "id": null,
+    "worker-id": null
+  },
+  "background": false,
+  "colors": true,
+  "randomx": {
+    "init": -1,
+    "numa": true
+  },
+  "donate-level": 0,
+  "log-file": null,
+  "print-time": 5,
+  "retries": 5,
+  "retry-pause": 1,
+  "cuda": {
+    "enabled": true,
+    "loader": "xmrig-cuda.dll",
+    "nvml": false,
+    "rx/arq": [
+      {
+        "index": 0,
+        "threads": 32,
+        "blocks": 26,
+        "bfactor": 6,
+        "bsleep": 25,
+        "affinity": -1,
+        "dataset_host": false
+      }
+    ]
+  },
+  "autosave": false
+}

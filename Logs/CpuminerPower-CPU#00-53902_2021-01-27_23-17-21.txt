@@ -1,0 +1,23 @@
+
+         **********  cpuminer-opt 3.8.8.5-cpu-pool  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AES_NI and AVX2 and SHA extensions.
+     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz.
+SW built on Mar  3 2020 with GCC 7.3.0.
+CPU features: SSE2 AES SSE4.2 AVX AVX2.
+SW features: SSE2 AES SSE4.2 AVX AVX2.
+Algo features: SSE2 SHA.
+Start mining with SSE2.
+
+[2021-01-27 23:17:22] 8 CPU cores available, 4 miner threads selected.[0m
+[2021-01-27 23:17:22][01;30m Binding process to cpu mask a1fc80[0m
+[2021-01-27 23:17:22] Starting Stratum on stratum+tcp://power2b.mine.zergpool.com:7445[0m
+[2021-01-27 23:17:22] 4 miner threads started, using 'power2b' algorithm.[0m
+[2021-01-27 23:17:24][33m Stratum difficulty set to 0.8[0m
+[2021-01-27 23:17:24][36m power2b block 680623, network diff 0.035[0m
+[2021-01-27 23:17:46] CPU #1: 4096 H, 193.05 H/s[0m
+[2021-01-27 23:17:47] CPU #0: 4096 H, 186.72 H/s[0m
+[2021-01-27 23:17:47] CPU #3: 4096 H, 183.21 H/s[0m
+[2021-01-27 23:17:48] CPU #2: 4096 H, 175.69 H/s[0m

@@ -1,0 +1,57 @@
+{
+  "Profile1-GTX970": {
+    "PowerLimit": 0,
+    "ThermalLimit": 0,
+    "MemoryClockBoost": "*",
+    "CoreClockBoost": "*",
+    "LockVoltagePoint": "*",
+    "PreCmd": "",
+    "PreCmdArguments": "",
+    "PostCmd": "",
+    "PostCmdArguments": ""
+  },
+  "Profile2-GTX970": {
+    "PowerLimit": 0,
+    "ThermalLimit": 0,
+    "MemoryClockBoost": "*",
+    "CoreClockBoost": "*",
+    "LockVoltagePoint": "*",
+    "PreCmd": "",
+    "PreCmdArguments": "",
+    "PostCmd": "",
+    "PostCmdArguments": ""
+  },
+  "Profile3-GTX970": {
+    "PowerLimit": 0,
+    "ThermalLimit": 0,
+    "MemoryClockBoost": "*",
+    "CoreClockBoost": "*",
+    "LockVoltagePoint": "*",
+    "PreCmd": "",
+    "PreCmdArguments": "",
+    "PostCmd": "",
+    "PostCmdArguments": ""
+  },
+  "Profile4-GTX970": {
+    "PowerLimit": 0,
+    "ThermalLimit": 0,
+    "MemoryClockBoost": "*",
+    "CoreClockBoost": "*",
+    "LockVoltagePoint": "*",
+    "PreCmd": "",
+    "PreCmdArguments": "",
+    "PostCmd": "",
+    "PostCmdArguments": ""
+  },
+  "Profile5-GTX970": {
+    "PowerLimit": 0,
+    "ThermalLimit": 0,
+    "MemoryClockBoost": "*",
+    "CoreClockBoost": "*",
+    "LockVoltagePoint": "*",
+    "PreCmd": "",
+    "PreCmdArguments": "",
+    "PostCmd": "",
+    "PostCmdArguments": ""
+  }
+}

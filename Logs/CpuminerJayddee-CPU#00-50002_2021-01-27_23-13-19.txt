@@ -1,0 +1,132 @@
+
+         **********  cpuminer-opt 3.15.5  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AVX512, SHA and VAES extensions by JayDDee.
+     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+
+[2021-01-27 23:13:20][01;37m Yespower parameters: N= 2048, R= 32[0m
+[2021-01-27 23:13:20][01;37m Key= "IsotopeC"
+[0m
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Dec 21 2020 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: SSE2   SHA
+
+Starting miner with SSE2...
+
+[2021-01-27 23:13:20] CPU affinity [!.!.!.!.][0m
+[2021-01-27 23:13:20] API listnening to 127.0.0.1:50002[0m
+[2021-01-27 23:13:20][36m Stratum connect yespowerIC.sea.mine.zpool.ca:6243[0m
+[2021-01-27 23:13:20] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 23:13:20] 4 of 8 miner threads started using 'yespower' algorithm[0m
+[2021-01-27 23:13:20] Stratum extranonce1= 81039240, extranonce2 size= 4[0m
+[2021-01-27 23:13:21] Extranonce subscription enabled[0m
+[2021-01-27 23:13:21][36m Stratum connection established[0m
+[2021-01-27 23:13:21][36m New Stratum Diff 0.01, Block 117711, Job 5d1c[0m
+                      Diff: Net 0.00058426, Stratum 0.01, Target 1.5259e-007[0m
+[2021-01-27 23:13:21][01;37m 1 Submitted Diff 3.2923e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:21][01;37m 1 [01;37m[32mAccepted 1 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.180 sec (355ms)[0m
+[2021-01-27 23:13:23][01;37m 2 Submitted Diff 1.3331e-006, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:23][01;37m 2 [01;37m[32mAccepted 2 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.891 sec (275ms)[0m
+[2021-01-27 23:13:23][01;37m 3 Submitted Diff 1.559e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:24][01;37m 3 [01;37m[32mAccepted 3 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.504 sec (269ms)[0m
+[2021-01-27 23:13:24][01;37m 4 Submitted Diff 4.6245e-006, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:24][01;37m 4 [01;37m[32mAccepted 4 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.688 sec (288ms)[0m
+[2021-01-27 23:13:26][01;37m 5 Submitted Diff 2.1282e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:27][01;37m 6 Submitted Diff 5.3088e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:27][01;37m 5 [01;37m[32mAccepted 5 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 2.360 sec (281ms)[0m
+[2021-01-27 23:13:27][01;37m 6 [01;37m[32mAccepted 6 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.215 sec (278ms)[0m
+[2021-01-27 23:13:29][01;37m 7 Submitted Diff 3.1975e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:29][01;37m 8 Submitted Diff 1.6972e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:29][01;37m 9 Submitted Diff 5.2028e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:29][01;37m 7 [01;37m[32mAccepted 7 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.983 sec (265ms)[0m
+[2021-01-27 23:13:29][01;37m 8 [01;37m[32mAccepted 8 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.058 sec (266ms)[0m
+[2021-01-27 23:13:29][01;37m 9 [01;37m[32mAccepted 9 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.025 sec (266ms)[0m
+[2021-01-27 23:13:29][01;37m 10 Submitted Diff 2.4343e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:30][01;37m 10 [01;37m[32mAccepted 10 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.511 sec (270ms)[0m
+[2021-01-27 23:13:30][01;37m 11 Submitted Diff 5.7944e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:31][01;37m 12 Submitted Diff 1.5633e-006, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:31][01;37m 11 [01;37m[32mAccepted 11 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.168 sec (286ms)[0m
+[2021-01-27 23:13:31][01;37m 13 Submitted Diff 3.5172e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:31][01;37m 12 [01;37m[32mAccepted 12 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.229 sec (275ms)[0m
+[2021-01-27 23:13:31][01;37m 13 [01;37m[32mAccepted 13 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.259 sec (276ms)[0m
+[2021-01-27 23:13:33][01;37m 14 Submitted Diff 2.8392e-006, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:33][01;37m 15 Submitted Diff 2.733e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:33][01;37m 14 [01;37m[32mAccepted 14 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.788 sec (290ms)[0m
+[2021-01-27 23:13:33][01;37m 15 [01;37m[32mAccepted 15 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.200 sec (276ms)[0m
+[2021-01-27 23:13:35][01;37m 16 Submitted Diff 3.8336e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:35][01;37m 16 [01;37m[32mAccepted 16 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.868 sec (279ms)[0m
+[2021-01-27 23:13:35][01;37m 17 Submitted Diff 4.5581e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:35][01;37m 17 [01;37m[32mAccepted 17 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.310 sec (268ms)[0m
+[2021-01-27 23:13:36][01;37m 18 Submitted Diff 4.3652e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:36][01;37m 19 Submitted Diff 1.6836e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:36][01;37m 18 [01;37m[32mAccepted 18 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.124 sec (276ms)[0m
+[2021-01-27 23:13:37][01;37m 19 [01;37m[32mAccepted 19 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.044 sec (270ms)[0m
+[2021-01-27 23:13:38][01;37m 20 Submitted Diff 2.188e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:38][01;37m 20 [01;37m[32mAccepted 20 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 1.530 sec (260ms)[0m
+[2021-01-27 23:13:38][01;37m 21 Submitted Diff 1.9675e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:38][36m yespower: yespowerIC.sea.mine.zpool.ca:6243[0m
+                     [01;37m Periodic Report     0m18s        0m18s[0m
+                      Share rate        65.40/min     68.67/min[0m
+                      Hash rate        714.39h/s    728.18h/s   (762.49h/s)[0m
+                      Lost hash rate     0.00h/s     36.41h/s[0m
+                      Submitted            20           21[0m
+                      Accepted             20           20[0m
+                      Hi/Lo Share Diff  4.6245e-006 /  1.559e-007[0m
+[2021-01-27 23:13:38][36m New Stratum Diff 0.046, Block 117711, Job 5d1e[0m
+                      Diff: Net 0.00058426, Stratum 0.046, Target 7.019e-007[0m
+                      TTF @ 762.49 h/s: Block 54m51s, Share 0m03s[0m
+[2021-01-27 23:13:38][01;37m 21 [01;37mA20 [01;37m[01;33mStale 1 [01;37mR0 [01;37mB0[01;37m, 0.356 sec (256ms)[0m
+                      Diff 1.9675e-007, Block 117711, Job 5d1c[0m
+[2021-01-27 23:13:40][01;37m 22 Submitted Diff 7.1047e-007, Block 117711, Job 5d1e[0m
+[2021-01-27 23:13:40][01;37m 22 [01;37m[32mAccepted 21 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 1.626 sec (263ms)[0m
+[2021-01-27 23:13:40][01;37m 23 Submitted Diff 7.7663e-007, Block 117711, Job 5d1e[0m
+[2021-01-27 23:13:41][01;37m 23 [01;37m[32mAccepted 22 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 0.645 sec (274ms)[0m
+[2021-01-27 23:13:41][01;37m 24 Submitted Diff 7.6177e-006, Block 117711, Job 5d1e[0m
+[2021-01-27 23:13:41][01;37m 24 [01;37m[32mAccepted 23 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 0.510 sec (273ms)[0m
+[2021-01-27 23:13:43][01;37m 25 Submitted Diff 3.101e-006, Block 117711, Job 5d1e[0m
+[2021-01-27 23:13:44][01;37m 25 [01;37m[32mAccepted 24 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 2.341 sec (281ms)[0m
+[2021-01-27 23:13:44][01;37m 26 Submitted Diff 1.0943e-006, Block 117711, Job 5d1e[0m
+[2021-01-27 23:13:44][01;37m 26 [01;37m[32mAccepted 25 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 0.959 sec (270ms)[0m
+[2021-01-27 23:13:59][36m New Work: Block 117711, Net diff 0.00058426, Job 5d1f[0m
+[2021-01-27 23:14:02][01;37m 27 Submitted Diff 7.7622e-007, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:03][01;37m 27 [01;37m[32mAccepted 26 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 18.241 sec (263ms)[0m
+[2021-01-27 23:14:04][01;37m 28 Submitted Diff 7.459e-007, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:04][01;37m 28 [01;37m[32mAccepted 27 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 1.126 sec (268ms)[0m
+[2021-01-27 23:14:05][01;37m 29 Submitted Diff 4.3342e-006, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:06][01;37m 29 [01;37m[32mAccepted 28 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 1.736 sec (271ms)[0m
+[2021-01-27 23:14:06][01;37m 30 Submitted Diff 8.0861e-007, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:07][01;37m 30 [01;37m[32mAccepted 29 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 1.097 sec (275ms)[0m
+[2021-01-27 23:14:11][01;37m 31 Submitted Diff 1.6752e-006, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:11][01;37m 31 [01;37m[32mAccepted 30 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 4.287 sec (268ms)[0m
+[2021-01-27 23:14:12][01;37m 32 Submitted Diff 9.93e-007, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:12][01;37m 32 [01;37m[32mAccepted 31 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 1.344 sec (263ms)[0m
+[2021-01-27 23:14:14][01;37m 33 Submitted Diff 7.3578e-007, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:14][01;37m 33 [01;37m[32mAccepted 32 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 1.628 sec (275ms)[0m
+[2021-01-27 23:14:15][01;37m 34 Submitted Diff 8.9924e-007, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:15][01;37m 34 [01;37m[32mAccepted 33 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 0.850 sec (284ms)[0m
+[2021-01-27 23:14:18][01;37m 35 Submitted Diff 1.9133e-006, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:18][01;37m 35 [01;37m[32mAccepted 34 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 3.546 sec (267ms)[0m
+[2021-01-27 23:14:18][01;37m 36 Submitted Diff 2.1213e-006, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:19][01;37m 36 [01;37m[32mAccepted 35 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 0.390 sec (277ms)[0m
+[2021-01-27 23:14:19][01;37m 37 Submitted Diff 1.1958e-006, Block 117711, Job 5d1f[0m
+[2021-01-27 23:14:20][01;37m 37 [01;37m[32mAccepted 36 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 0.790 sec (278ms)[0m
+[2021-01-27 23:14:20][36m yespower: yespowerIC.sea.mine.zpool.ca:6243[0m
+                     [01;37m Periodic Report     0m42s        1m00s[0m
+                      Share rate        24.24/min     36.74/min[0m
+                      Hash rate       1146.22h/s   1022.36h/s   (837.94h/s)[0m
+                      Lost hash rate    71.64h/s     50.24h/s[0m
+                      Submitted            17           37[0m
+                      Accepted             16           36[0m
+                      Stale                 1            1[0m
+                      Hi/Lo Share Diff  7.6177e-006 /  7.1047e-007[0m
+[2021-01-27 23:14:20][36m New Stratum Diff 0.13, Block 117711, Job 5d20[0m
+                      Diff: Net 0.00058426, Stratum 0.13, Target 1.9836e-006[0m
+                      TTF @ 837.94 h/s: Block 49m54s, Share 0m10s[0m
+[2021-01-27 23:14:26][01;37m 38 Submitted Diff 7.2753e-006, Block 117711, Job 5d20[0m
+[2021-01-27 23:14:26][01;37m 38 [01;37m[32mAccepted 37 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 6.357 sec (292ms)[0m
+[2021-01-27 23:14:29][01;37m 39 Submitted Diff 3.0773e-006, Block 117711, Job 5d20[0m
+[2021-01-27 23:14:29][01;37m 39 [01;37m[32mAccepted 38 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 2.918 sec (283ms)[0m
+[2021-01-27 23:14:32][01;37m 40 Submitted Diff 5.3609e-006, Block 117711, Job 5d20[0m
+[2021-01-27 23:14:32][01;37m 40 [01;37m[32mAccepted 39 [01;37mS1 [01;37mR0 [01;37mB0[01;37m, 3.270 sec (272ms)[0m

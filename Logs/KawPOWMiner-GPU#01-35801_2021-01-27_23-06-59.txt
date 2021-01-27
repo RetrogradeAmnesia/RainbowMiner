@@ -1,0 +1,107 @@
+
+
+kawpowminer 1.2.3+commit.d46045ef
+Build: windows/release/msvc
+
+ i 23:07:01 main      Configured pool kawpow.in.nicehash.com:3385
+ i 23:07:01 main      Api server listening on port 35801.
+ i 23:07:01 <unknown> Selected pool kawpow.in.nicehash.com:3385
+ i 23:07:01 <unknown> Stratum mode : Stratum
+ i 23:07:01 <unknown> Established connection to kawpow.in.nicehash.com [172.65.192.67:3385]
+ i 23:07:01 <unknown> Spinning up miners...
+cu 23:07:01 cuda-0    Using Pci Id : 01:00.0 GeForce GTX 970 (Compute 5.2) Memory : 4.00 GB
+ i 23:07:01 <unknown> Extranonce set to 2f993d
+ i 23:07:02 <unknown> Authorized worker 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC
+ i 23:07:02 <unknown> New target set to: 0000000b8b71d931000000000000000000000000000000000000000000000000
+ i 23:07:02 <unknown> Epoch : 213 Difficulty : 372.02 Mh
+ i 23:07:02 <unknown> Job: 8af027ab... block 1600419 kawpow.in.nicehash.com [172.65.192.67:3385]
+cu 23:07:03 cuda-0    Generating DAG + Light : 2.71 GB
+ i 23:07:05 <unknown> New API session from 127.0.0.1:52320
+ i 23:07:05 <unknown> API : Method miner_getstat1 requested
+ i 23:07:06 <unknown> New API session from 127.0.0.1:52323
+ i 23:07:06 <unknown> API : Method miner_getstat1 requested
+ m 23:07:06 <unknown> 0:00 A0 0.00 h - cu0 0.00
+ i 23:07:08 <unknown> New API session from 127.0.0.1:52328
+ i 23:07:08 <unknown> API : Method miner_getstat1 requested
+ i 23:07:09 <unknown> New API session from 127.0.0.1:52333
+ i 23:07:09 <unknown> API : Method miner_getstat1 requested
+ i 23:07:11 <unknown> New API session from 127.0.0.1:52338
+ i 23:07:11 <unknown> API : Method miner_getstat1 requested
+ m 23:07:11 <unknown> 0:00 A0 0.00 h - cu0 0.00
+ i 23:07:12 <unknown> New API session from 127.0.0.1:52341
+ i 23:07:12 <unknown> API : Method miner_getstat1 requested
+ i 23:07:14 <unknown> New API session from 127.0.0.1:52346
+ i 23:07:14 <unknown> API : Method miner_getstat1 requested
+ i 23:07:15 <unknown> New API session from 127.0.0.1:52349
+ i 23:07:15 <unknown> API : Method miner_getstat1 requested
+ m 23:07:16 <unknown> 0:00 A0 0.00 h - cu0 0.00
+ i 23:07:17 <unknown> New API session from 127.0.0.1:52354
+ i 23:07:17 <unknown> API : Method miner_getstat1 requested
+ i 23:07:18 <unknown> New API session from 127.0.0.1:52357
+ i 23:07:18 <unknown> API : Method miner_getstat1 requested
+ i 23:07:19 <unknown> Job: 1df041fb... block 1600419 kawpow.in.nicehash.com [172.65.192.67:3385]
+ i 23:07:20 <unknown> New API session from 127.0.0.1:52362
+ i 23:07:20 <unknown> API : Method miner_getstat1 requested
+ m 23:07:21 <unknown> 0:00 A0 0.00 h - cu0 0.00
+ i 23:07:21 <unknown> New API session from 127.0.0.1:52365
+ i 23:07:21 <unknown> API : Method miner_getstat1 requested
+ i 23:07:23 <unknown> New API session from 127.0.0.1:52369
+ i 23:07:23 <unknown> API : Method miner_getstat1 requested
+ m 23:07:26 <unknown> 0:00 A0 0.00 h - cu0 0.00
+ i 23:07:28 <unknown> Job: ae0e9e13... block 1600420 kawpow.in.nicehash.com [172.65.192.67:3385]
+cu 23:07:31 cuda-0    Generated DAG + Light in 27,508 ms. 1.29 GB left.
+ m 23:07:31 <unknown> 0:00 A0 0.00 h - cu0 0.00
+cu 23:07:31 cuda-0    Pre-compiled period 533,473 CUDA ProgPow kernel for arch 5.2
+cu 23:07:31 cuda-0    Launching period 533,473 ProgPow kernel
+cu 23:07:32 cuda-0    Pre-compiled period 533,474 CUDA ProgPow kernel for arch 5.2
+ m 23:07:36 <unknown> 0:00 A0 8.76 Kh - cu0 8.76
+ i 23:07:41 <unknown> Job: e9e8c34c... block 1600421 kawpow.in.nicehash.com [172.65.192.67:3385]
+ m 23:07:41 <unknown> 0:00 A0 1.29 Mh - cu0 1.29
+ m 23:07:46 <unknown> 0:00 A0 1.32 Mh - cu0 1.32
+ m 23:07:51 <unknown> 0:00 A0 1.32 Mh - cu0 1.32
+ m 23:07:56 <unknown> 0:00 A0 1.32 Mh - cu0 1.32
+ m 23:08:01 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ m 23:08:06 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ m 23:08:11 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ m 23:08:16 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ i 23:08:17 <unknown> New API session from 127.0.0.1:52445
+ i 23:08:17 <unknown> API : Method miner_getstat1 requested
+ i 23:08:19 <unknown> New API session from 127.0.0.1:52449
+ i 23:08:19 <unknown> API : Method miner_getstat1 requested
+ i 23:08:20 <unknown> New API session from 127.0.0.1:52453
+ i 23:08:20 <unknown> API : Method miner_getstat1 requested
+ m 23:08:21 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ i 23:08:22 <unknown> New API session from 127.0.0.1:52457
+ i 23:08:22 <unknown> API : Method miner_getstat1 requested
+ i 23:08:23 <unknown> New API session from 127.0.0.1:52461
+ i 23:08:23 <unknown> API : Method miner_getstat1 requested
+ i 23:08:25 <unknown> New API session from 127.0.0.1:52464
+ i 23:08:25 <unknown> API : Method miner_getstat1 requested
+ m 23:08:26 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ i 23:08:26 <unknown> New API session from 127.0.0.1:52469
+ i 23:08:26 <unknown> API : Method miner_getstat1 requested
+ i 23:08:28 <unknown> New API session from 127.0.0.1:52472
+ i 23:08:28 <unknown> API : Method miner_getstat1 requested
+ i 23:08:29 <unknown> New API session from 127.0.0.1:52477
+ i 23:08:29 <unknown> API : Method miner_getstat1 requested
+ i 23:08:31 <unknown> New API session from 127.0.0.1:52480
+ i 23:08:31 <unknown> API : Method miner_getstat1 requested
+ m 23:08:31 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ i 23:08:32 <unknown> New API session from 127.0.0.1:52484
+ i 23:08:32 <unknown> API : Method miner_getstat1 requested
+ i 23:08:34 <unknown> New API session from 127.0.0.1:52488
+ i 23:08:34 <unknown> API : Method miner_getstat1 requested
+ i 23:08:35 <unknown> New API session from 127.0.0.1:52492
+ i 23:08:35 <unknown> API : Method miner_getstat1 requested
+ i 23:08:36 <unknown> Job: 27c89f2e... block 1600421 kawpow.in.nicehash.com [172.65.192.67:3385]
+ m 23:08:36 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ i 23:08:37 <unknown> New API session from 127.0.0.1:52496
+ i 23:08:37 <unknown> API : Method miner_getstat1 requested
+ m 23:08:41 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ m 23:08:46 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ m 23:08:51 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ m 23:08:56 <unknown> 0:01 A0 1.32 Mh - cu0 1.32
+ i 23:08:58 <unknown> Job: 8aa21f10... block 1600422 kawpow.in.nicehash.com [172.65.192.67:3385]
+cu 23:08:58 cuda-0    Launching period 533,474 ProgPow kernel
+cu 23:08:59 cuda-0    Pre-compiled period 533,475 CUDA ProgPow kernel for arch 5.2
+ m 23:09:01 <unknown> 0:02 A0 1.32 Mh - cu0 1.32

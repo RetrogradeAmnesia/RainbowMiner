@@ -1,0 +1,69 @@
+[INFO   ] 21/01/27 22:41:22[01;37m zealot/enemy-2.6.2 miner (64 bit)[0m
+[INFO   ] 21/01/27 22:41:22[01;37m NVIDIA CUDA 10.1[0m
+[INFO   ] 21/01/27 22:41:22[01;37m Dev fee is 1.0%[0m
+[NOTICE ] 21/01/27 22:41:22[36m MAIN POOL----------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m URL : stratum+tcp://kawpow.in.nicehash.com:3385[0m
+[NOTICE ] 21/01/27 22:41:22[36m USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC[0m
+[NOTICE ] 21/01/27 22:41:22[36m PASS: x[0m
+[NOTICE ] 21/01/27 22:41:22[36m -------------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m FAILOVER POOLs-----------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m POOL[1]------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m URL : stratum+tcp://kawpow.usa.nicehash.com:3385[0m
+[NOTICE ] 21/01/27 22:41:22[36m USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC[0m
+[NOTICE ] 21/01/27 22:41:22[36m PASS: x[0m
+[NOTICE ] 21/01/27 22:41:22[36m -------------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m POOL[2]------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m URL : stratum+tcp://kawpow.br.nicehash.com:3385[0m
+[NOTICE ] 21/01/27 22:41:22[36m USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC[0m
+[NOTICE ] 21/01/27 22:41:22[36m PASS: x[0m
+[NOTICE ] 21/01/27 22:41:22[36m -------------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m POOL[3]------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m URL : stratum+tcp://kawpow.hk.nicehash.com:3385[0m
+[NOTICE ] 21/01/27 22:41:22[36m USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC[0m
+[NOTICE ] 21/01/27 22:41:22[36m PASS: x[0m
+[NOTICE ] 21/01/27 22:41:22[36m -------------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m POOL[4]------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m URL : stratum+tcp://kawpow.eu.nicehash.com:3385[0m
+[NOTICE ] 21/01/27 22:41:22[36m USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC[0m
+[NOTICE ] 21/01/27 22:41:22[36m PASS: x[0m
+[NOTICE ] 21/01/27 22:41:22[36m -------------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m POOL[5]------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m URL : stratum+tcp://kawpow.jp.nicehash.com:3385[0m
+[NOTICE ] 21/01/27 22:41:22[36m USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC[0m
+[NOTICE ] 21/01/27 22:41:22[36m PASS: x[0m
+[NOTICE ] 21/01/27 22:41:22[36m -------------------------------------------------------[0m
+[NOTICE ] 21/01/27 22:41:22[36m Starting on stratum+tcp://kawpow.in.nicehash.com:3385[0m
+[INFO   ] 21/01/27 22:41:22[01;37m GPU monitoring enabled (NVML).[0m
+[INFO   ] 21/01/27 22:41:22[01;37m Mining 'kawpow' with 1 thread.[0m
+[INFO   ] 21/01/27 22:41:22[01;37m HTTP API server started: http://127.0.0.1:30201[0m
+[NOTICE ] 21/01/27 22:41:23[36m New job 0000000010b46e36[0m
+[WARNING] 21/01/27 22:41:23[33m New difficulty: 0.0866185, 372.02MH to the target[0m
+[NOTICE ] 21/01/27 22:41:23[36m Block 1600390 (epoch 213), difficulty 27779.658[0m
+[INFO   ] 21/01/27 22:41:23[01;37m GPU#0: Intensity set to 19[0m
+[KAWPOW ] 21/01/27 22:41:25[22;35m GPU#0: Generating DAG in GPU memory (2905.21Mb)[0m
+[WARNING] 21/01/27 22:41:40[33m Stratum connection interrupted[0m
+[NOTICE ] 21/01/27 22:41:41[36m New job 00000000e9528f01[0m
+[KAWPOW ] 21/01/27 22:41:45[22;35m GPU#0: DAG generation completed in 20.46s[0m
+[KAWPOW ] 21/01/27 22:41:46[22;35m GPU#0: Period active: 533463[0m
+[NOTICE ] 21/01/27 22:41:59[36m New job 00000000e9528f02[0m
+[NOTICE ] 21/01/27 22:41:59[36m Block 1600391 (epoch 213), difficulty 27481.040[0m
+[NOTICE ] 21/01/27 22:42:02[36m New job 00000000e9528f03[0m
+[NOTICE ] 21/01/27 22:42:02[36m Block 1600392 (epoch 213), difficulty 27349.094[0m
+[KAWPOW ] 21/01/27 22:42:03[22;35m GPU#0: Period active: 533464[0m
+[INFO   ] 21/01/27 22:42:32[01;37m GPU#0: GeForce GTX 970 - 1277.77kH/s [[32mT:0C[01;37m, F:0%][0m
+[INFO   ] 21/01/27 22:42:32[01;37m Shares/minute: 0.00[0m
+[INFO   ] 21/01/27 22:42:32[01;37m Uptime: 0 days, 0 hours, 1 minute, 10 seconds.[0m
+[NOTICE ] 21/01/27 22:43:27[36m New job 00000000e9528f04[0m
+[NOTICE ] 21/01/27 22:43:27[36m Block 1600393 (epoch 213), difficulty 27701.537[0m
+[NOTICE ] 21/01/27 22:43:34[36m New job 00000000e9528f05[0m
+[NOTICE ] 21/01/27 22:43:34[36m Block 1600394 (epoch 213), difficulty 27513.256[0m
+[INFO   ] 21/01/27 22:43:52[01;37m GPU#0: GeForce GTX 970 - 1289.52kH/s [[32mT:0C[01;37m, F:0%][0m
+[INFO   ] 21/01/27 22:43:52[01;37m Shares/minute: 0.00[0m
+[INFO   ] 21/01/27 22:43:52[01;37m Uptime: 0 days, 0 hours, 2 minutes, 30 seconds.[0m
+[NOTICE ] 21/01/27 22:44:00[36m New job 00000000e9528f06[0m
+[WARNING] 21/01/27 22:44:00[33m New difficulty: 0.0433092, 186.01MH to the target[0m
+[NOTICE ] 21/01/27 22:44:00[36m Block 1600395 (epoch 213), difficulty 27524.188[0m
+[KAWPOW ] 21/01/27 22:44:00[22;35m GPU#0: Period active: 533465[0m
+[INFO   ] 21/01/27 22:45:23[01;37m GPU#0: GeForce GTX 970 - 1286.40kH/s [[32mT:0C[01;37m, F:0%][0m
+[INFO   ] 21/01/27 22:45:23[01;37m Shares/minute: 0.00[0m
+[INFO   ] 21/01/27 22:45:23[01;37m Uptime: 0 days, 0 hours, 4 minutes, 1 second.[0m

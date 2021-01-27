@@ -1,0 +1,45 @@
+Phoenix Miner 5.4c Windows/msvc - Release build
+-----------------------------------------------
+
+CUDA version: 11.0, CUDA runtime: 8.0
+Available GPUs for mining:
+GPU1: GeForce GTX 970 (pcie 1), CUDA cap. 5.2, 4 GB VRAM, 13 CUs
+Nvidia driver version: 460.89
+Eth: the pool list contains 1 pool (1 from command-line)
+Eth: primary pool: etchash.mine.zergpool.com:9997
+Starting GPU mining
+Eth: Connecting to ethash pool etchash.mine.zergpool.com:9997 (proto: EthProxy)
+GPU1: 73C 56%
+Listening for CDM remote manager at port 30801 in read-only mode
+Eth: Connected to ethash pool etchash.mine.zergpool.com:9997 (103.249.70.7)
+Eth: New job #9f9261df from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: Starting up... (0)
+GPU1: Generating etchash light cache for epoch #201
+Eth: New job #07897a9e from etchash.mine.zergpool.com:9997; diff: 2000MH
+Eth: New job #39c5ef42 from etchash.mine.zergpool.com:9997; diff: 2000MH
+Light cache generated in 2.6 s (16.1 MB/s)
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+Eth: New job #5aa5c896 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: Allocating DAG (2.59) GB; good for epoch up to #203
+GPU1: Generating DAG for epoch #201
+GPU1: DAG  14%
+GPU1: DAG  30%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  45%
+GPU1: DAG  59%
+Eth: New job #33647009 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: DAG  73%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  88%
+Eth: New job #66f39f35 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: DAG generated in 10.5 s (249.7 MB/s)
+GPU1: Using v1 Ethash CUDA kernels (GeForce GTX 970)
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+CUDA error in CudaProgram.cu:465 : the launch timed out and was terminated (702)
+GPU1 search error: the launch timed out and was terminated
+Fatal error detected. Restarting.
+Eth: New job #a5c030a7 from etchash.mine.zergpool.com:9997; diff: 2000MH
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+
+
+

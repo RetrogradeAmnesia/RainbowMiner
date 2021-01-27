@@ -1,0 +1,59 @@
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@*                                     *@@   ******  pool.rplant.xyz ******
+ @@                                         @@
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@  Newborns CPU&GPU altcoins
+ @@   .@(                             /@.   @@
+ @@   .@(                             /@.   @@    - lowdiff ports
+ @@   .@(               /             /@.   @@
+ @@   .@(       @@     ,@    @@       /@.   @@    - without registration
+ @@   .@(              ,@             /@.   @@
+ @@   .@(              ,@             /@.   @@    - 1% pool fee for all coins
+ @@   .@(              ,@             /@.   @@
+ @@   .@(           @@@@@             /@.   @@    - fair payments every hour
+ @@   .@(                             /@.   @@
+ @@   .@(        @@         @@        /@.   @@    - dedicated servers
+ @@   .@(         @@@@@@@@@@@         /@.   @@
+ @@   .@(                             /@.   @@    - Europe, Russia, Asia,
+ @@   .@(                             /@.   @@      North-America stratums
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@
+ @@                                         @@    - SSL ports
+ @@                                         @@
+ @@   .@(  @@   @@        &&&&&&&&&&&&&&    @@    Discord:
+ @@    /    ,                               @@       https://discord.gg/eHzNXmp
+ @@                                         @@    Telegram:
+ @@                                         @@       https://t.me/RPLANT_POOL
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     @&                                 &@      ******  pool.rplant.xyz ******
+     @&                                 &@
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
+
+Donations:
+BTC  1Bkg23fU9EnazGw2yyYVwQKHmjq1MRsEx4
+LTC  MSAf4idBNJQ4mfPDqAR5uycAkVRBi3AxjD
+DOGE DQxJHVR7ZGFbpnpbHrXUEzJsovJvoGz633
+
+         **********  cpuminer-rplant 5.0.11W-avx2 *********** 
+[2021-01-27 22:57:11][01;37m Yespower parameters: N= 2048, R= 32.[0m
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Jan  5 2021 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: SSE2   SHA
+
+Starting miner with SSE2...
+
+[2021-01-27 22:57:11] CPU affinity [!.!.!.!.][0m
+[2021-01-27 22:57:11] API listnening to 127.0.0.1:53202[0m
+[2021-01-27 22:57:11][36m Stratum connect yespower.mine.zergpool.com:6533[0m
+[2021-01-27 22:57:11] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 22:57:11] 4 of 8 miner threads started using 'yespower' algorithm[0m
+[2021-01-27 22:57:14] Extranonce subscription enabled[0m
+[2021-01-27 22:57:14][36m Stratum connection established[0m
+[2021-01-27 22:57:14][36m New stratum difficulty 0.8[0m
+[2021-01-27 22:57:14][36m yespower.mine.zergpool.com:6533 yespower block 245574, job 3c21, network diff 0.023945718[0m
+[2021-01-27 22:57:22][01;37m Share 1 submitted diff 0.000015, block 245574, job 3c21[0m
+[2021-01-27 22:57:23][01;37m [01;37m[32mAccepted [01;37m1/1 (100.0%), diff 0.00001486, 875.25 H/s, 10.938 sec (589ms)[0m
+[2021-01-27 22:57:46][36m yespower.mine.zergpool.com:6533 yespower block 245575, job 3c28, network diff 0.023024726[0m
+[2021-01-27 22:58:21][36m yespower.mine.zergpool.com:6533 yespower block 245576, job 3c2a, network diff 0.022139163[0m
+[2021-01-27 22:58:44][36m yespower.mine.zergpool.com:6533 yespower block 245577, job 3c2f, network diff 0.021287654[0m

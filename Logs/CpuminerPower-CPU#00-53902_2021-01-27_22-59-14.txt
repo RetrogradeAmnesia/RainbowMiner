@@ -1,0 +1,48 @@
+
+         **********  cpuminer-opt 3.8.8.5-cpu-pool  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AES_NI and AVX2 and SHA extensions.
+     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz.
+SW built on Mar  3 2020 with GCC 7.3.0.
+CPU features: SSE2 AES SSE4.2 AVX AVX2.
+SW features: SSE2 AES SSE4.2 AVX AVX2.
+Algo features: SSE2 SHA.
+Start mining with SSE2.
+
+[2021-01-27 22:59:16] 8 CPU cores available, 4 miner threads selected.[0m
+[2021-01-27 22:59:16][01;30m Binding process to cpu mask a1fc80[0m
+[2021-01-27 22:59:16] 4 miner threads started, using 'yespower' algorithm.[0m
+[2021-01-27 22:59:16] Starting Stratum on stratum+tcp://yespower.mine.zergpool.com:6533[0m
+[2021-01-27 22:59:18][33m Stratum difficulty set to 0.8[0m
+[2021-01-27 22:59:18][36m yespower block 245577, network diff 0.021[0m
+[2021-01-27 22:59:24][36m yespower block 245578, network diff 0.020[0m
+[2021-01-27 22:59:24] CPU #2: 998 H, 197.24 H/s[0m
+[2021-01-27 22:59:24] CPU #1: 978 H, 193.25 H/s[0m
+[2021-01-27 22:59:24] CPU #0: 1063 H, 210.04 H/s[0m
+[2021-01-27 22:59:24] CPU #3: 992 H, 195.99 H/s[0m
+[2021-01-27 22:59:31][36m yespower block 245579, network diff 0.020[0m
+[2021-01-27 22:59:31] CPU #1: 1516 H, 208.46 H/s[0m
+[2021-01-27 22:59:31] CPU #0: 1542 H, 212.03 H/s[0m
+[2021-01-27 22:59:31] CPU #3: 1317 H, 181.09 H/s[0m
+[2021-01-27 22:59:31] CPU #2: 1478 H, 203.09 H/s[0m
+[2021-01-27 22:59:44][01;37m Share submitted.[0m
+[2021-01-27 22:59:44] CPU #1: 2628 H, 209.09 H/s[0m
+[2021-01-27 22:59:44][01;37m [32mAccepted[01;37m 1/1 (100%), diff 1.79e-005, 805.31 H/s[0m
+[2021-01-27 23:00:18][36m yespower block 245580, network diff 0.025[0m
+[2021-01-27 23:00:18] CPU #1: 6194 H, 180.78 H/s[0m
+[2021-01-27 23:00:18] CPU #2: 8898 H, 190.02 H/s[0m
+[2021-01-27 23:00:18] CPU #3: 7972 H, 170.23 H/s[0m
+[2021-01-27 23:00:18] CPU #0: 8858 H, 189.14 H/s[0m
+[2021-01-27 23:00:38][01;37m Share submitted.[0m
+[2021-01-27 23:00:38] CPU #2: 4410 H, 223.35 H/s[0m
+[2021-01-27 23:00:38][01;37m [32mAccepted[01;37m 2/2 (100%), diff 8.33e-005, 763.50 H/s[0m
+[2021-01-27 23:01:11] CPU #1: 10.85 kH, 202.34 H/s[0m
+[2021-01-27 23:01:13] CPU #3: 10.21 kH, 183.59 H/s[0m
+[2021-01-27 23:01:14] CPU #0: 11.35 kH, 201.09 H/s[0m
+[2021-01-27 23:01:17][33m Stratum difficulty set to 0.4[0m
+[2021-01-27 23:01:17] CPU #1: 887 H, 175.40 H/s[0m
+[2021-01-27 23:01:17] CPU #3: 491 H, 161.78 H/s[0m
+[2021-01-27 23:01:17] CPU #0: 409 H, 183.12 H/s[0m
+[2021-01-27 23:01:17] CPU #2: 7394 H, 189.93 H/s[0m

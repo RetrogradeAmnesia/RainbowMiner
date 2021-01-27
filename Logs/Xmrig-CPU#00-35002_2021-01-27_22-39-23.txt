@@ -1,0 +1,114 @@
+ * ABOUT        XMRig/6.8.0 MSVC/2019
+
+ * COMPILED BY  RainbowMiner https://rbminer.net
+
+ * LIBS         libuv/1.40.0 OpenSSL/1.1.1i hwloc/2.4.0
+
+ * HUGE PAGES   permission granted
+
+ * 1GB PAGES    unavailable
+
+ * CPU          Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz (1) 64-bit AES VM
+
+                L2:1.0 MB L3:8.0 MB 4C/8T NUMA:1
+
+ * MEMORY       10.2/15.9 GB (64%)
+
+                ChannelA-DIMM1: 8 GB DDR4 @ 2133 MHz F4-2400C15-8GVR .   
+
+                ChannelB-DIMM1: 8 GB DDR4 @ 2133 MHz F4-2400C15-8GVR .   
+
+ * MOTHERBOARD  MSI - MS-7978
+
+ * DONATE       0%
+
+ * ASSEMBLY     auto:intel
+
+ * POOL #1      stratum+tcp://cryptonight_haven.mine.zergpool.com:4452 algo cn-heavy/xhv
+
+ * COMMANDS     'h' hashrate, 'p' pause, 'r' resume, 's' results, 'c' connection
+
+ * HTTP API     127.0.0.1:35002 
+
+ * OPENCL       disabled
+
+ * CUDA         disabled
+
+[2021-01-27 22:39:26.207]  net      use pool cryptonight_haven.mine.zergpool.com:4452  103.249.70.7
+
+[2021-01-27 22:39:26.207]  net      new job from cryptonight_haven.mine.zergpool.com:4452 diff 20000 algo cn-heavy/xhv height 0
+
+[2021-01-27 22:39:26.207]  cpu      use profile  cn-heavy  (2 threads) scratchpad 4096 KB
+
+[2021-01-27 22:39:26.378]  cpu      READY threads 2/2 (2) huge pages 0% 0/4 memory 8192 KB (171 ms)
+
+[2021-01-27 22:39:31.313]  miner    speed 10s/60s/15m n/a n/a n/a H/s max n/a H/s
+
+[2021-01-27 22:39:36.428]  miner    speed 10s/60s/15m n/a n/a n/a H/s max n/a H/s
+
+[2021-01-27 22:39:41.543]  miner    speed 10s/60s/15m 61.74 n/a n/a H/s max 61.84 H/s
+
+[2021-01-27 22:39:46.658]  miner    speed 10s/60s/15m 62.67 n/a n/a H/s max 62.67 H/s
+
+[2021-01-27 22:39:51.773]  miner    speed 10s/60s/15m 63.28 n/a n/a H/s max 63.28 H/s
+
+[2021-01-27 22:39:56.888]  miner    speed 10s/60s/15m 64.62 n/a n/a H/s max 64.82 H/s
+
+[2021-01-27 22:40:02.003]  miner    speed 10s/60s/15m 64.00 n/a n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:07.118]  miner    speed 10s/60s/15m 63.80 n/a n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:12.233]  miner    speed 10s/60s/15m 63.80 n/a n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:17.348]  miner    speed 10s/60s/15m 61.95 n/a n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:22.463]  miner    speed 10s/60s/15m 60.30 n/a n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:27.578]  miner    speed 10s/60s/15m 61.23 62.60 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:32.693]  miner    speed 10s/60s/15m 62.56 62.83 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:37.808]  miner    speed 10s/60s/15m 61.54 62.65 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:42.923]  miner    speed 10s/60s/15m 61.84 62.63 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:48.038]  miner    speed 10s/60s/15m 62.67 62.71 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:53.153]  miner    speed 10s/60s/15m 63.39 62.54 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:40:58.268]  miner    speed 10s/60s/15m 64.00 62.53 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:41:03.383]  miner    speed 10s/60s/15m 52.38 60.69 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:41:08.498]  miner    speed 10s/60s/15m 40.65 58.70 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:41:13.613]  miner    speed 10s/60s/15m 42.09 57.05 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:41:18.728]  miner    speed 10s/60s/15m 45.28 55.88 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:41:23.843]  miner    speed 10s/60s/15m 58.65 56.51 n/a H/s max 64.93 H/s
+
+[2021-01-27 22:41:28.958]  miner    speed 10s/60s/15m 73.99 57.80 n/a H/s max 73.99 H/s
+
+[2021-01-27 22:41:34.073]  miner    speed 10s/60s/15m 77.18 59.04 n/a H/s max 77.89 H/s
+
+[2021-01-27 22:41:37.328]  net      new job from cryptonight_haven.mine.zergpool.com:4452 diff 4219 algo cn-heavy/xhv height 0
+
+[2021-01-27 22:41:39.188]  miner    speed 10s/60s/15m 78.21 60.54 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:41:44.303]  miner    speed 10s/60s/15m 77.79 61.79 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:41:49.418]  miner    speed 10s/60s/15m 75.84 62.81 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:41:54.533]  miner    speed 10s/60s/15m 75.32 63.92 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:41:59.648]  miner    speed 10s/60s/15m 75.12 65.30 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:42:04.763]  miner    speed 10s/60s/15m 64.42 66.49 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:42:09.661]  cpu      accepted (1/0) diff 4219 (564 ms)
+
+[2021-01-27 22:42:09.878]  miner    speed 10s/60s/15m 49.50 67.02 n/a H/s max 78.51 H/s
+
+[2021-01-27 22:42:14.993]  miner    speed 10s/60s/15m 48.06 67.66 n/a H/s max 78.51 H/s
+

@@ -1,0 +1,82 @@
+
+         **********  cpuminer-opt 3.15.5  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AVX512, SHA and VAES extensions by JayDDee.
+     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Dec 21 2020 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: AVX2  
+
+Starting miner with AVX2...
+
+[2021-01-27 23:01:24] CPU affinity [!.!.!.!.][0m
+[2021-01-27 23:01:24] API listnening to 127.0.0.1:50002[0m
+[2021-01-27 23:01:24][36m Stratum connect lyra2z330.mine.zergpool.com:4563[0m
+[2021-01-27 23:01:24] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 23:01:24] 4 of 8 miner threads started using 'lyra2z330' algorithm[0m
+[2021-01-27 23:01:26] Stratum extranonce1= 8101c8ff, extranonce2 size= 4[0m
+[2021-01-27 23:01:28] Extranonce subscription enabled[0m
+[2021-01-27 23:01:28][36m Stratum connection established[0m
+[2021-01-27 23:01:28][36m New Stratum Diff 0.002, Block 824489, Job 7a9[0m
+                      Diff: Net 0.0064878, Stratum 0.002, Target 7.8125e-006[0m
+[2021-01-27 23:02:08][01;37m 1 Submitted Diff 2.5994e-005, Block 824489, Job 7a9[0m
+[2021-01-27 23:02:09][01;37m 1 [01;37m[32mAccepted 1 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 43.819 sec (772ms)[0m
+[2021-01-27 23:02:27][36m lyra2z330: lyra2z330.mine.zergpool.com:4563[0m
+                     [01;37m Periodic Report     1m02s        1m02s[0m
+                      Share rate        0.96/min     0.96/min[0m
+                      Hash rate        535.83h/s    541.20h/s   (666.74h/s)[0m
+                      Submitted             1            1[0m
+                      Accepted              1            1[0m
+                      Hi/Lo Share Diff  2.5994e-005 /  2.5994e-005[0m
+[2021-01-27 23:02:27][36m New Stratum Diff 0.001, Block 824489, Job 7aa[0m
+                      Diff: Net 0.0064878, Stratum 0.001, Target 3.9063e-006[0m
+                      TTF @ 666.74 h/s: Block 11h36m, Share 0m25s[0m
+[2021-01-27 23:02:53][01;37m 2 Submitted Diff 5.1084e-006, Block 824489, Job 7aa[0m
+[2021-01-27 23:02:54][01;37m 2 [01;37m[32mAccepted 2 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 44.892 sec (881ms)[0m
+[2021-01-27 23:02:56][01;37m 3 Submitted Diff 7.8837e-006, Block 824489, Job 7aa[0m
+[2021-01-27 23:02:57][01;37m 3 [01;37m[32mAccepted 3 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 3.243 sec (639ms)[0m
+[2021-01-27 23:03:04][01;37m 4 Submitted Diff 5.5494e-006, Block 824489, Job 7aa[0m
+[2021-01-27 23:03:04][01;37m 4 [01;37m[32mAccepted 4 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 7.473 sec (705ms)[0m
+[2021-01-27 23:03:13][01;37m 5 Submitted Diff 2.3486e-005, Block 824489, Job 7aa[0m
+[2021-01-27 23:03:14][01;37m 5 [01;37m[32mAccepted 5 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 9.553 sec (653ms)[0m
+[2021-01-27 23:03:30][36m New Work: Block 824489, Net diff 0.0064878, Job 7ab[0m
+[2021-01-27 23:03:40][36m New Block 824490, Job 7ac[0m
+                      Diff: Net 0.0064939, Stratum 0.001, Target 3.9063e-006[0m
+                      TTF @ 583.71 h/s: Block 13h16m, Share 0m28s[0m
+                      Net hash rate (est) 205.08 kh/s[0m
+[2021-01-27 23:03:41][01;37m 6 Submitted Diff 1.8013e-005, Block 824490, Job 7ac[0m
+[2021-01-27 23:03:41][01;37m 6 [01;37m[32mAccepted 6 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 27.527 sec (609ms)[0m
+[2021-01-27 23:04:04][01;37m 7 Submitted Diff 3.7699e-005, Block 824490, Job 7ac[0m
+[2021-01-27 23:04:04][01;37m 7 [01;37m[32mAccepted 7 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 23.092 sec (535ms)[0m
+[2021-01-27 23:04:33][01;37m 8 Submitted Diff 1.7606e-005, Block 824490, Job 7ac[0m
+[2021-01-27 23:04:34][01;37m 8 [01;37m[32mAccepted 8 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 29.125 sec (920ms)[0m
+[2021-01-27 23:04:40][01;37m 9 Submitted Diff 1.7169e-005, Block 824490, Job 7ac[0m
+[2021-01-27 23:04:40][01;37m 9 [01;37m[32mAccepted 9 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 6.909 sec (536ms)[0m
+[2021-01-27 23:04:54][36m New Work: Block 824490, Net diff 0.0064939, Job 7ad[0m
+[2021-01-27 23:05:50][01;37m 10 Submitted Diff 4.7607e-005, Block 824490, Job 7ad[0m
+[2021-01-27 23:05:51][01;37m 10 [01;37m[32mAccepted 10 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 70.421 sec (609ms)[0m
+[2021-01-27 23:05:58][36m New Work: Block 824490, Net diff 0.0064939, Job 7ae[0m
+[2021-01-27 23:06:06][36m New Block 824491, Job 7af[0m
+                      Diff: Net 0.0064921, Stratum 0.001, Target 3.9063e-006[0m
+                      TTF @ 587.49 h/s: Block 13h11m, Share 0m28s[0m
+                      Net hash rate (est) 199.17 kh/s[0m
+[2021-01-27 23:06:30][01;37m 11 Submitted Diff 0.00011606, Block 824491, Job 7af[0m
+[2021-01-27 23:06:30][01;37m 11 [01;37m[32mAccepted 11 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 39.218 sec (907ms)[0m
+[2021-01-27 23:06:37][01;37m 12 Submitted Diff 3.9673e-006, Block 824491, Job 7af[0m
+[2021-01-27 23:06:38][01;37m 12 [01;37m[32mAccepted 12 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 7.848 sec (564ms)[0m
+[2021-01-27 23:06:39][36m lyra2z330: lyra2z330.mine.zergpool.com:4563[0m
+                     [01;37m Periodic Report     4m11s        5m14s[0m
+                      Share rate        2.62/min     2.29/min[0m
+                      Hash rate        733.05h/s    694.60h/s   (583.91h/s)[0m
+                      Submitted            11           12[0m
+                      Accepted             11           12[0m
+                      Hi/Lo Share Diff  0.00011606 /  3.9673e-006[0m
+[2021-01-27 23:06:39][36m New Stratum Diff 0.00057586, Block 824492, Job 7b0[0m
+                      Diff: Net 0.0065018, Stratum 0.00057586, Target 2.2495e-006[0m
+                      TTF @ 583.91 h/s: Block 13h17m, Share 0m16s[0m
+                      Net hash rate (est) 268.51 kh/s[0m
+[2021-01-27 23:06:42][01;37m 13 Submitted Diff 1.107e-005, Block 824492, Job 7b0[0m
+[2021-01-27 23:06:43][01;37m 13 [01;37m[32mAccepted 13 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 4.630 sec (937ms)[0m

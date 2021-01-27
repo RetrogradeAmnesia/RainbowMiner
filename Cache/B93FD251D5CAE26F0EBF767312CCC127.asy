@@ -1,0 +1,1 @@
+﻿{"currency":"BTC","unsold":2.5529519442991E-08,"balance":0.0,"unpaid":3E-08,"paid24h":0.0,"total":3E-08,"miners":[],"payouts":[],"error":""}

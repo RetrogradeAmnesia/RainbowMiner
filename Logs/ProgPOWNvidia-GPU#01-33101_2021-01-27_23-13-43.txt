@@ -1,0 +1,83 @@
+ m 23:13:44 main     progpowminer 0.16.0rc1-1+commit.b09f8e74
+ m 23:13:44 main     Build: windows/release
+cu 23:13:44 main     Using grid size: 1,024, block size: 512
+cu 23:13:44 main     Found suitable CUDA device [GeForce GTX 970] with 4,294,967,296 bytes of GPU memory
+ i 23:13:44 main     Configured pool progpow.mine.zergpool.com:3200
+ i 23:13:44 main     Api server listening on port 33101.
+ i 23:13:44 main     Selected pool progpow.mine.zergpool.com:3200
+ i 23:13:45 stratum  Stratum mode detected: STRATUM
+ i 23:13:45 stratum  Subscribed!
+ X 23:13:46 stratum  Got unknown method [mining.set_target] from pool. Discarding...
+ i 23:13:46 stratum  Authorized worker 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo
+ i 23:13:46 stratum  Established connection with progpow.mine.zergpool.com:3200 at  [103.249.70.7:3200]
+ i 23:13:46 stratum  Spinning up miners...
+ i 23:13:46 cuda-0   No work. Pause for 3 s.
+ i 23:13:46 stratum  Job: #69221b84... progpow.mine.zergpool.com [103.249.70.7:3200]
+ i 23:13:46 stratum  Pool difficulty: 0.19K megahash
+ i 23:13:46 stratum  New epoch 46
+ i 23:13:47 Api      New API session from 127.0.0.1:53061
+ i 23:13:49 Api      New API session from 127.0.0.1:53065
+ i 23:13:49 cuda-0   Initialising miner 0
+cu 23:13:49 cuda-0   Using device: GeForce GTX 970 (Compute 5.2)
+ m 23:13:50 main     Speed 0.00 Mh/s gpu0 0.00 [A0] Time: 00:00
+cu 23:13:50 cuda-0   Set Device to current
+cu 23:13:50 cuda-0   Resetting device
+ i 23:13:50 Api      New API session from 127.0.0.1:53070
+cu 23:13:51 cuda-0   Compiled _Z14progpow_searchy8hash32_tyPKyPV14search_results
+cu 23:13:51 cuda-0   Allocating light with size: 21.750 MB
+cu 23:13:51 cuda-0   Generating mining buffers
+cu 23:13:51 cuda-0   Generating DAG for GPU #0 with dagSize: 1.359 GB (2.619 GB left)
+ i 23:13:52 Api      New API session from 127.0.0.1:53074
+ i 23:13:54 Api      New API session from 127.0.0.1:53078
+ i 23:13:55 Api      New API session from 127.0.0.1:53082
+ m 23:13:56 main     Speed 0.00 Mh/s gpu0 0.00 [A0] Time: 00:00
+ i 23:13:57 Api      New API session from 127.0.0.1:53085
+cu 23:13:57 cuda-0   Generated DAG for GPU0 in: 6,226 ms.
+ i 23:13:58 Api      New API session from 127.0.0.1:53091
+ i 23:14:00 Api      New API session from 127.0.0.1:53094
+ i 23:14:01 Api      New API session from 127.0.0.1:53098
+ m 23:14:02 main     Speed 0.05 Mh/s gpu0 0.05 [A0] Time: 00:00
+ i 23:14:03 Api      New API session from 127.0.0.1:53102
+ i 23:14:04 Api      New API session from 127.0.0.1:53106
+ i 23:14:06 Api      New API session from 127.0.0.1:53110
+ m 23:14:08 main     Speed 3.64 Mh/s gpu0 3.64 [A0] Time: 00:00
+ m 23:14:14 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:00
+ m 23:14:20 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:00
+ m 23:14:26 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:00
+ i 23:14:28 stratum  Job: #665500e6... progpow.mine.zergpool.com [103.249.70.7:3200]
+ m 23:14:32 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:00
+ m 23:14:38 main     Speed 3.66 Mh/s gpu0 3.66 [A0] Time: 00:00
+ m 23:14:45 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:01
+ m 23:14:51 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:01
+ m 23:14:57 main     Speed 3.77 Mh/s gpu0 3.77 [A0] Time: 00:01
+ m 23:15:03 main     Speed 3.78 Mh/s gpu0 3.78 [A0] Time: 00:01
+ i 23:15:07 stratum  Job: #9dcef096... progpow.mine.zergpool.com [103.249.70.7:3200]
+ m 23:15:09 main     Speed 3.78 Mh/s gpu0 3.78 [A0] Time: 00:01
+ i 23:15:13 cuda-0   Solution: 0xcdf126f150f43c17
+ i 23:15:14 stratum  **Accepted 506 ms. progpow.mine.zergpool.com [103.249.70.7:3200]
+ m 23:15:15 main     Speed 3.67 Mh/s gpu0 3.67 [A1] Time: 00:01
+ m 23:15:21 main     Speed 3.77 Mh/s gpu0 3.77 [A1] Time: 00:01
+ i 23:15:24 Api      New API session from 127.0.0.1:53235
+ i 23:15:26 Api      New API session from 127.0.0.1:53239
+ m 23:15:27 main     Speed 3.77 Mh/s gpu0 3.77 [A1] Time: 00:01
+ i 23:15:27 Api      New API session from 127.0.0.1:53241
+ i 23:15:29 Api      New API session from 127.0.0.1:53245
+ i 23:15:30 Api      New API session from 127.0.0.1:53247
+ i 23:15:32 Api      New API session from 127.0.0.1:53250
+ m 23:15:33 main     Speed 3.77 Mh/s gpu0 3.77 [A1] Time: 00:01
+ i 23:15:33 Api      New API session from 127.0.0.1:53253
+ i 23:15:35 Api      New API session from 127.0.0.1:53256
+ i 23:15:36 Api      New API session from 127.0.0.1:53259
+ i 23:15:38 Api      New API session from 127.0.0.1:53262
+ m 23:15:39 main     Speed 3.77 Mh/s gpu0 3.77 [A1] Time: 00:01
+ i 23:15:39 Api      New API session from 127.0.0.1:53264
+ i 23:15:41 Api      New API session from 127.0.0.1:53268
+ i 23:15:43 Api      New API session from 127.0.0.1:53271
+ i 23:15:44 Api      New API session from 127.0.0.1:53275
+ m 23:15:45 main     Speed 3.77 Mh/s gpu0 3.77 [A1] Time: 00:02
+ i 23:15:47 cuda-0   Solution: 0xcdf126f1589ca14a
+ i 23:15:48 stratum  **Accepted 494 ms. progpow.mine.zergpool.com [103.249.70.7:3200]
+ m 23:15:51 main     Speed 3.78 Mh/s gpu0 3.78 [A2] Time: 00:02
+ m 23:15:57 main     Speed 3.77 Mh/s gpu0 3.77 [A2] Time: 00:02
+ i 23:15:58 cuda-0   Solution: 0xcdf126f15af4b0fe
+ i 23:15:58 stratum  **Accepted 547 ms. progpow.mine.zergpool.com [103.249.70.7:3200]

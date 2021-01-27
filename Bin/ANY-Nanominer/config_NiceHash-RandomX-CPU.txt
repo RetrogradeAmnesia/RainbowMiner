@@ -1,0 +1,15 @@
+;Automatic config file created by RainbowMiner
+;Do not edit!
+mport=-53402
+webPort = 0
+Watchdog = false
+noLog = true
+
+[RandomX]
+wallet=359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T
+rigName=DesktopPCcpu
+pool1 = randomxmonero.in.nicehash.com:3380
+devices =
+rigPassword=x
+cpuThreads = 4
+coin=XMR

@@ -1,0 +1,60 @@
+
+         **********  cpuminer-opt 3.15.5  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AVX512, SHA and VAES extensions by JayDDee.
+     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+
+[2021-01-27 23:07:02][01;37m Yescrypt parameters: N= 2048, R= 8.[0m
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Dec 21 2020 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: SSE2   SHA
+
+Starting miner with SSE2...
+
+[2021-01-27 23:07:02] CPU affinity [!.!.!.!.][0m
+[2021-01-27 23:07:02] API listnening to 127.0.0.1:50002[0m
+[2021-01-27 23:07:02][36m Stratum connect yescrypt.mine.zergpool.com:6233[0m
+[2021-01-27 23:07:02] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 23:07:02] 4 of 8 miner threads started using 'yescrypt' algorithm[0m
+[2021-01-27 23:07:03] Stratum extranonce1= 812da327, extranonce2 size= 4[0m
+[2021-01-27 23:07:04] Extranonce subscription enabled[0m
+[2021-01-27 23:07:04][36m Stratum connection established[0m
+[2021-01-27 23:07:04][36m New Stratum Diff 0.8, Block 871515, Job 180f[0m
+                      Diff: Net 0.00024414, Stratum 0.8, Target 1.2207e-005[0m
+[2021-01-27 23:07:18][01;37m 1 Submitted Diff 2.2188e-005, Block 871515, Job 180f[0m
+[2021-01-27 23:07:19][36m New Block 871516, Job 1812[0m
+                      Diff: Net 0.00024414, Stratum 0.8, Target 1.2207e-005[0m
+                      TTF @ 3707.18 h/s: Block 4m42s, Share 0m14s[0m
+                      Net hash rate (est) 61.68 kh/s[0m
+[2021-01-27 23:07:19][01;37m 1 [01;37m[32mAccepted 1 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 16.487 sec (602ms)[0m
+[2021-01-27 23:07:51][01;37m 2 Submitted Diff 0.00013979, Block 871516, Job 1812[0m
+[2021-01-27 23:07:52][01;37m 2 [01;37m[32mAccepted 2 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 32.941 sec (671ms)[0m
+[2021-01-27 23:08:02][01;37m 3 Submitted Diff 5.5241e-005, Block 871516, Job 1812[0m
+[2021-01-27 23:08:03][01;37m 4 Submitted Diff 2.1487e-005, Block 871516, Job 1812[0m
+[2021-01-27 23:08:03][01;37m 3 [01;37m[32mAccepted 3 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 10.745 sec (936ms)[0m
+[2021-01-27 23:08:03][01;37m 5 Submitted Diff 5.9197e-005, Block 871516, Job 1812[0m
+[2021-01-27 23:08:03][01;37m 4 [01;37m[32mAccepted 4 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.784 sec (652ms)[0m
+[2021-01-27 23:08:04][01;37m 5 [01;37m[32mAccepted 5 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 0.292 sec (869ms)[0m
+[2021-01-27 23:08:07][36m yescrypt: yescrypt.mine.zergpool.com:6233[0m
+                     [01;37m Periodic Report     1m04s        1m04s[0m
+                      Share rate        4.63/min     4.63/min[0m
+                      Hash rate       4044.32h/s   4096.00h/s   (3687.61h/s)[0m
+                      Submitted             5            5[0m
+                      Accepted              5            5[0m
+                      Hi/Lo Share Diff  0.00013979 /  2.1487e-005[0m
+[2021-01-27 23:08:07][36m New Stratum Diff 0.786498, Block 871517, Job 1815[0m
+                      Diff: Net 0.00024414, Stratum 0.7865, Target 1.2001e-005[0m
+                      TTF @ 3687.61 h/s: Block 4m44s, Share 0m13s[0m
+                      Net hash rate (est) 32.77 kh/s[0m
+[2021-01-27 23:08:07][01;37m 6 Submitted Diff 1.9392e-005, Block 871517, Job 1815[0m
+[2021-01-27 23:08:07][01;37m 6 [01;37m[32mAccepted 6 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 3.723 sec (647ms)[0m
+[2021-01-27 23:08:18][01;37m 7 Submitted Diff 3.2357e-005, Block 871517, Job 1815[0m
+[2021-01-27 23:08:19][01;37m 7 [01;37m[32mAccepted 7 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 11.707 sec (950ms)[0m
+[2021-01-27 23:08:34][01;37m 8 Submitted Diff 1.6858e-005, Block 871517, Job 1815[0m
+[2021-01-27 23:08:35][01;37m 8 [01;37m[32mAccepted 8 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 16.101 sec (869ms)[0m
+[2021-01-27 23:08:50][01;37m 9 Submitted Diff 3.0683e-005, Block 871517, Job 1815[0m
+[2021-01-27 23:08:50][01;37m 9 [01;37m[32mAccepted 9 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 15.038 sec (824ms)[0m
+[2021-01-27 23:08:56][01;37m 10 Submitted Diff 1.2658e-005, Block 871517, Job 1815[0m
+[2021-01-27 23:08:57][01;37m 10 [01;37m[32mAccepted 10 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 6.958 sec (873ms)[0m

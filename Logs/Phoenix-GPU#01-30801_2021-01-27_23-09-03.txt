@@ -1,0 +1,82 @@
+Phoenix Miner 5.4c Windows/msvc - Release build
+-----------------------------------------------
+
+CUDA version: 11.0, CUDA runtime: 8.0
+Available GPUs for mining:
+GPU1: GeForce GTX 970 (pcie 1), CUDA cap. 5.2, 4 GB VRAM, 13 CUs
+Nvidia driver version: 460.89
+PP: the pool list contains 1 pool (1 from command-line)
+PP: primary pool: progpow.mine.zergpool.com:3200
+Starting GPU mining
+PP: Connecting to progpow pool progpow.mine.zergpool.com:3200 (proto: Stratum)
+GPU1: 78C 60%
+Listening for CDM remote manager at port 30801 in read-only mode
+PP: Connected to progpow pool progpow.mine.zergpool.com:3200 (103.249.70.7)
+PP: Subscribed to progpow pool
+PP: Worker 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo authorized
+PP: New job #cd203a78 from progpow.mine.zergpool.com:3200; diff: 188MH
+GPU1: Starting up... (0)
+GPU1: Generating ethash light cache for epoch #46
+Light cache generated in 0.9 s (22.9 MB/s)
+GPU1: ProgPOW seed set to 46
+GPU1: Allocating DAG (1.37) GB; good for epoch up to #48
+GPU1: Generating DAG for epoch #46
+PP speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  27%
+GPU1: DAG  55%
+GPU1: DAG  81%
+GPU1: DAG generated in 5.6 s (246.4 MB/s)
+PP speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+PP speed: 3.793 MH/s, shares: 0/0/0, time: 0:00
+PP speed: 3.655 MH/s, shares: 0/0/0, time: 0:00
+PP: GPU1: PP share found!
+PP: Share actual difficulty: 6268 MH
+PP speed: 3.501 MH/s, shares: 0/0/0, time: 0:00
+PP: Share accepted in 497 ms
+GPU1: 86C 70%
+PP speed: 3.341 MH/s, shares: 1/0/0, time: 0:00
+PP speed: 3.331 MH/s, shares: 1/0/0, time: 0:00
+PP speed: 3.634 MH/s, shares: 1/0/0, time: 0:00
+ 
+*** 0:00 *** 1/27 23:09 **************************************
+PP: Mining BCI on progpow.mine.zergpool.com:3200 for 0:00
+PP: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+PP: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+PP: Maximum difficulty of found share: 6268 MH
+PP: Average speed (5 min): 3.535 MH/s
+ 
+PP speed: 3.649 MH/s, shares: 1/0/0, time: 0:00
+PP: New job #b6b6aad5 from progpow.mine.zergpool.com:3200; diff: 188MH
+PP speed: 3.687 MH/s, shares: 1/0/0, time: 0:00
+PP speed: 3.677 MH/s, shares: 1/0/0, time: 0:00
+GPU1: 86C 76%
+PP speed: 3.540 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.672 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.663 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.497 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.461 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.481 MH/s, shares: 1/0/0, time: 0:01
+ 
+*** 0:01 *** 1/27 23:10 **************************************
+PP: Mining BCI on progpow.mine.zergpool.com:3200 for 0:01
+PP: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+PP: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+PP: Maximum difficulty of found share: 6268 MH
+PP: Average speed (5 min): 3.570 MH/s
+PP: Effective speed: 2.10 MH/s; at pool: 2.10 MH/s
+ 
+GPU1: 86C 77%
+PP speed: 3.510 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.309 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.226 MH/s, shares: 1/0/0, time: 0:01
+PP: New job #03943043 from progpow.mine.zergpool.com:3200; diff: 188MH
+PP speed: 3.216 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.242 MH/s, shares: 1/0/0, time: 0:01
+PP speed: 3.420 MH/s, shares: 1/0/0, time: 0:01
+GPU1: 85C 78%
+PP speed: 3.519 MH/s, shares: 1/0/0, time: 0:02
+PP: GPU1: PP share found!
+PP: Share actual difficulty: 4357 MH
+PP: Share accepted in 494 ms
+PP speed: 3.471 MH/s, shares: 2/0/0, time: 0:02
+PP speed: 3.459 MH/s, shares: 2/0/0, time: 0:02

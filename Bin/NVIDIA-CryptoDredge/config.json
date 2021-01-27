@@ -1,0 +1,34 @@
+{
+  /* multi-line comment */
+  // single-line comment
+  // Uncomment and modify options
+  "algo": "argon2d-nim",
+  "url": "wss://nimiq.icemining.ca:2053",
+  "user": "NQ68XM089BE857DEQMT6PAT5PJGQTEBXFSBU",
+  "pass": "x"
+  // Add comma to the end of the previous line
+  /* "intensity": 6,
+  "device": "0",
+  "log": "log.txt",
+  "no-color": false,
+  "no-watchdog": false,
+  "retries": 0,
+  "retry-pause": 15,
+  "timeout": 300,
+  "cpu-priority": 3,
+  "api-type": "ccminer-tcp",
+  "api-bind": "127.0.0.1:4068",
+  "pools": [{
+      "algo": "mtp",
+      "url": "stratum+tcp://xzc.2miners.com:8080",
+      "user": "a2VcGTRJ8g5NAWQ1pxYUcUVyHpWA2k9BEx",
+      "pass": "x"
+    },
+    {
+      "algo": "mtp",
+      "url": "stratum+ssl://zcoin.mintpond.com:3005",
+      "user": "a2VcGTRJ8g5NAWQ1pxYUcUVyHpWA2k9BEx",
+      "pass": "x"
+    }
+  ] */
+}

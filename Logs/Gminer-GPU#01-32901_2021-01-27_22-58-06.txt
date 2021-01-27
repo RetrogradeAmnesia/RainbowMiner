@@ -1,0 +1,53 @@
++----------------------------------------------------------------+
+|                          GMiner v2.42                          |
++----------------------------------------------------------------+
+Algorithm:          KAWPOW
+DevFee:             1%
+Stratum server:     
+  host:             kawpow.in.nicehash.com:3385
+  user:             1NV7obQpcLyERvmmv6WETmGWvVcZax28fo.DesktopPC
+  password:         x
+Power calculator:   on
+Color output:       on
+Watchdog:           off
+API:                http://127.0.0.1:32901
+Log to file:        off
+Selected devices:   GPU0
+Intensity:          100 
+Temperature limits: 90C 
+------------------------------------------------------------------
+22:58:09 Connected to kawpow.in.nicehash.com:3385
+22:58:09 Subscribed to Stratum Server
+22:58:09 Set Extra Nonce: fe74
+22:58:09 Authorized on Stratum Server
+22:58:09 New Job: 0000000028f26bbf Difficulty: 372.03M
+22:58:09 Started Mining on GPU0: ASUS GeForce GTX 970 4GB [0000:01:00.0]
+22:58:16 New Job: 0000000028f26bc0 Difficulty: 372.03M
+22:58:24 GPU0: Generating DAG for epoch #213 [Single Buffer 2728 MB]
++------+----+-----+-----+------+----+---+-----+-----------+
+|  GPU  Temp  Fan  Speed Shares Core Mem Power Efficiency |
++------+----+-----+-----+------+----+---+-----+-----------+
+|  GPU0 80 C  57 % 0 H/s  0/0/0    0   0   N/A        N/A |
++------+----+-----+-----+------+----+---+-----+-----------+
+22:58:39 Uptime: 0d 00:00:30 Shares/Minute: 0.00
+22:58:39 GPU0: DAG generated in 14.89s [183 MB/s]
++------+----+-----+---------+------+----+---+-----+-----------+
+|  GPU  Temp  Fan    Speed   Shares Core Mem Power Efficiency |
++------+----+-----+---------+------+----+---+-----+-----------+
+|  GPU0 79 C  57 % 1.09 MH/s  0/0/0    0   0   N/A        N/A |
++------+----+-----+---------+------+----+---+-----+-----------+
+22:59:09 Uptime: 0d 00:01:00 Shares/Minute: 0.00
++------+----+-----+---------+------+----+---+-----+-----------+
+|  GPU  Temp  Fan    Speed   Shares Core Mem Power Efficiency |
++------+----+-----+---------+------+----+---+-----+-----------+
+|  GPU0 80 C  57 % 1.10 MH/s  0/0/0    0   0   N/A        N/A |
++------+----+-----+---------+------+----+---+-----+-----------+
+22:59:39 Uptime: 0d 00:01:30 Shares/Minute: 0.00
+22:59:48 GPU0: Share #1 verified on CPU, difficulty: 1.16G
+22:59:48 GPU0: Share #1 accepted 203 ms
++------+----+-----+---------+------+----+---+-----+-----------+
+|  GPU  Temp  Fan    Speed   Shares Core Mem Power Efficiency |
++------+----+-----+---------+------+----+---+-----+-----------+
+|  GPU0 80 C  57 % 1.08 MH/s  1/0/0    0   0   N/A        N/A |
++------+----+-----+---------+------+----+---+-----+-----------+
+23:00:09 Uptime: 0d 00:02:00 Shares/Minute: 0.50

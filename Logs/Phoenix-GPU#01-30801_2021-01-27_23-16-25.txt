@@ -1,0 +1,57 @@
+Phoenix Miner 5.4c Windows/msvc - Release build
+-----------------------------------------------
+
+CUDA version: 11.0, CUDA runtime: 8.0
+Available GPUs for mining:
+GPU1: GeForce GTX 970 (pcie 1), CUDA cap. 5.2, 4 GB VRAM, 13 CUs
+Nvidia driver version: 460.89
+Eth: the pool list contains 1 pool (1 from command-line)
+Eth: primary pool: etchash.mine.zergpool.com:9997
+Starting GPU mining
+Eth: Connecting to ethash pool etchash.mine.zergpool.com:9997 (proto: EthProxy)
+GPU1: 73C 69%
+Listening for CDM remote manager at port 30801 in read-only mode
+Eth: Connected to ethash pool etchash.mine.zergpool.com:9997 (103.249.70.7)
+Eth: New job #0fb773f2 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: Starting up... (0)
+GPU1: Generating etchash light cache for epoch #201
+Light cache generated in 2.9 s (14.1 MB/s)
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+Eth: New job #1ebc7d89 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: Allocating DAG (2.59) GB; good for epoch up to #203
+GPU1: Generating DAG for epoch #201
+GPU1: DAG  14%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  30%
+GPU1: DAG  45%
+GPU1: DAG  52%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  56%
+Eth: New job #a5976878 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: DAG  61%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  66%
+Eth: New job #45258e85 from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: DAG  70%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  75%
+GPU1: DAG  80%
+GPU1: DAG  84%
+Eth: New job #37b42f2d from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: 80C 64%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+GPU1: DAG  89%
+GPU1: DAG  94%
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+Eth: New job #8990656b from etchash.mine.zergpool.com:9997; diff: 2000MH
+GPU1: DAG  98%
+GPU1: DAG generated in 28.6 s (92.0 MB/s)
+GPU1: Using v1 Ethash CUDA kernels (GeForce GTX 970)
+Eth: New job #64926b30 from etchash.mine.zergpool.com:9997; diff: 2000MH
+CUDA error in CudaProgram.cu:465 : unknown error (999)
+GPU1 search error: unknown error
+Fatal error detected. Restarting.
+Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+
+
+

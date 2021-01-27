@@ -1,0 +1,10 @@
+{
+  "Pool": "ZergPoolCoins",
+  "Duration": 34.43785579166666,
+  "Cost": 0.0,
+  "Profit": 0.0,
+  "ProfitApi": 0.0,
+  "Power": 0.0,
+  "Started": "2021-01-27T11:16:36.0158879Z",
+  "Updated": "2021-01-27T12:17:24.8268442Z"
+}

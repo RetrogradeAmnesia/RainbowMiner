@@ -1,0 +1,29 @@
++----------------------------------------------------------------+
+|                          GMiner v2.42                          |
++----------------------------------------------------------------+
+Algorithm:          Equihash 192,7 "ArrowPoW"
+DevFee:             2%
+Stratum server:     
+  host:             equihash192.mine.zergpool.com:2144
+  user:             1NV7obQpcLyERvmmv6WETmGWvVcZax28fo
+  password:         DesktopPC,c=BTC,mc=ARW
+Power calculator:   on
+Color output:       on
+Watchdog:           off
+API:                http://127.0.0.1:32901
+Log to file:        off
+Selected devices:   GPU0
+Intensity:          100 
+Temperature limits: 90C 
+------------------------------------------------------------------
+22:46:09 GPU0 ASUS GeForce GTX 970 4GB: Selected Normal Solver
+22:46:09 Connected to equihash192.mine.zergpool.com:2144
+22:46:11 Subscribed to Stratum Server
+22:46:11 Set Extra Nonce: 07f78d82
+22:46:11 Authorized on Stratum Server
+22:46:12 Set Target: 0028000000000000000000000000000000000000000000000000000000000000
+22:46:12 New Job: 15952
+22:46:12 Started Mining on GPU0: ASUS GeForce GTX 970 4GB [0000:01:00.0]
+22:46:37 New Job: 15953
+22:46:41 Error on GPU0: the launch timed out and was terminated
+22:46:41 Stopped Mining on GPU0

@@ -1,0 +1,14 @@
+{
+  "gpu_threads_conf": [
+    {
+      "index": 0,
+      "threads": 8,
+      "blocks": 41,
+      "bfactor": 8,
+      "bsleep": 25,
+      "affine_to_cpu": false,
+      "sync_mode": 3,
+      "mem_mode": 1
+    }
+  ]
+}

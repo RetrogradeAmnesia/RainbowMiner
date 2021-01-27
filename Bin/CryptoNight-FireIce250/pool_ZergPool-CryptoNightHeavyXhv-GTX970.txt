@@ -1,0 +1,15 @@
+
+  "pool_list": [
+    {
+      "pool_address": "cryptonight_haven.mine.zergpool.com:4452",
+      "wallet_address": "1NV7obQpcLyERvmmv6WETmGWvVcZax28fo",
+      "pool_password": "DesktopPC,c=BTC",
+      "use_nicehash": false,
+      "use_tls": false,
+      "tls_fingerprint": "",
+      "pool_weight": 1,
+      "rig_id": "DesktopPC"
+    }
+  ],
+  "currency": "cryptonight_haven"
+,

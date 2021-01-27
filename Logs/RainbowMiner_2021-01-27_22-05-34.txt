@@ -1,0 +1,745 @@
+**********************
+PowerShell transcript start
+Start time: 20210127220534
+Username: DESKTOP-KG848PC\rhysm
+RunAs User: DESKTOP-KG848PC\rhysm
+Configuration Name: 
+Machine: DESKTOP-KG848PC (Microsoft Windows NT 10.0.19041.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -executionpolicy bypass -windowstyle maximized -command & {.\rainbowminer.ps1 -configfile .\Config\config.txt; exit $lastexitcode}
+Process ID: 8072
+PSVersion: 7.1.1
+PSEdition: Core
+GitCommitId: 7.1.1
+OS: Microsoft Windows 10.0.19041
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.1
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\Logs\RainbowMiner_2021-01-27_22-05-34.txt
+__________        .__      ___.                   _____  .__
+\______   \_____  |__| ____\_ |__   ______  _  __/     \ |__| ____   ___________
+ |       _/\__  \ |  |/    \| __ \ /  _ \ \/ \/ /  \ /  \|  |/    \_/ __ \_  __ \
+ |    |   \ / __ \|  |   |  \ \_\ (  <_> )     /    Y    \  |   |  \  ___/|  | \/
+ |____|_  /(____  /__|___|  /___  /\____/ \/\_/\____|__  /__|___|  /\___  >__|
+        \/      \/        \/    \/                     \/        \/     \/
+
+Starting v4.6.7.6! Please wait..
+
+Detecting devices ..
+WARNING: Admin Privileges needed. Exiting without installation
+Initialize configuration ..
+Read configuration ..
+
+*** RainbowMiner Configuration ***
+
+
+Hints (read them all! It will make entering data much easier):
+
+- press Return to accept the defaults
+- fields marked with * are mandatory
+- use comma "," to separate list entries
+- add new entries to a list, by adding a "+" in front of your input
+- remove entries from a list, by adding a "-" in front of your input
+- enter "list" or "help" to show a list of all valid entries
+- enter "back" or "<" to repeat the last input
+- enter "delete" to clear a non-mandatory entry
+- enter "save" or "done" to end config and save changes
+- enter "exit" or "cancel" to abort without any changes to the configuration
+
+
+(1) Basic Setup
+
+
+Every pool (except the MiningPoolHub) wants the miner to send a worker's name. You can change the name later. Please enter only letters and numbers.
+
+
+Let's start with the local setup of this machine's API.
+
+RainbowMiner can be monitored using your webbrowser via API:
+- on this machine: http://localhost:4000
+- on most devices in the network: http://DESKTOP-KG848PC:4000
+- on any other device in the network: http://192.168.8.101:4000
+
+
+Please lookup your BTC wallet address. It is easy: copy it to your clipboard and then press the right mouse key in this window to paste
+
+
+If you plan to mine on Nicehash, you need to register an account with them, to get a NiceHash mining wallet address (please read the Pools section of our readme!).
+If you do not want to use Nicehash as a pool, leave this empty (or enter "clear" to make it empty) and press return
+
+
+Now is your chance to add other currency wallets (e.g. enter XWP for Swap)
+
+
+If you plan to use MiningPoolHub for mining, you will have to register an account with them and choose a username. Enter this username now, or leave empty to disable MiningPoolHub (can be activated, later)
+
+
+If you plan to offer your rig for rent at MiningRigRentals, you will have to register an account with them and choose a username. Enter this username now, or leave empty to disable MiningRigRentals (can be activated, later)
+
+
+Choose the region, that is nearest to your rigs (remember: you can always simply accept the default by pressing return):
+
+Region        Valid shortcuts/entries
+------        -----------------------
+Asia          asia, cn
+Australia     au
+Canada        ca
+Europe        eu
+Finland       fi
+Germany       de
+HongKong      hk
+Japan         jp
+Korea         kr
+Russia        ru
+SouthAmerica  br, sa
+SoutheastAsia ap, aspac, in, sea, sg
+Taiwan        tw
+UK            uk
+US            america, na, us
+USCentral     uscentral
+USEast        useast
+USNorthWest   usnw
+USSouth       ussouth
+USWest        naw, uswest
+
+
+
+RainbowMiner includes a lot of different miner programs. Before the regular profit switching operation may start,
+all programs need to be benchmarked on your system, once. The benchmarks will already mine into your wallet,
+but it may take a long time to finish. Please be patient. It is a one time thing.
+
+Please select the benchmark-accuracy. This value will determine the runtime interval used for benchmarks
+(this value can be set to individual values by directly changing BenchmarkInterval in config.txt).
+- Quick   = 60 seconds (should be enough, for most cases)
+- Normal  = 90 seconds
+- Precise = 180 seconds
+
+RainbowMiner can track this and all of your rig's status at https://rbminer.net (or another compatible service)
+If you enable this feature, you may enter an existing miner status key or create a new one.
+It is possible to enter an email address or a https://pushover.net user key to be notified in case your rig is offline.
+
+
+(2) Select your pools, miners and algorithm (be sure you read the notes in the README.md)
+
+
+Choose your mining pools from this list or accept the default for a head start (read the Pools section of our readme for more details):
+2Miners, 2MinersSolo, 572133Club, 666Pool, 6Block, Acepool, AHashPool, Aionmine, BaikalMine, BaikalMineSolo, BeePool, Binance, BlazePool, BlockMasters, BlockMastersCoins, Bsod, BsodParty, BsodSolo, BtcPrivate, Cortexmint, CpuPool, EthashPool, Ethermine, F2pool, FairPool, FlyPool, GosCx, GosCxParty, GosCxSolo, Grinmint, HashCity, Hashcryptos, Hashpool, HashVault, Hellominer, HeroMiners, Hiveon, Icemining, LeafPool, LuckPool, LuckyPool, Luxor, MinerRocks, Minexmr, MiningDutch, MiningDutchCoins, MiningPoolHub, MiningPoolHubCoins, MiningPoolOvh, MiningRigRentals, Mintpond, MoneroOcean, Nanopool, NiceHash, NLpool, Poolin, Poolium, PoolmineXyz, PoolmineXyzSolo, PoolSexy, Ravenminer, Ravepool, RPlant, SoloPool, SparkPool, Sunpool, SupportXmr, SuprNova, Tecracoin, UUpool, WoolyPooly, WoolyPoolySolo, ZelLabs, ZergPool, ZergPoolCoins, ZergPoolCoinsParty, ZergPoolCoinsSolo, ZergPoolParty, ZergPoolSolo, Zpool, ZpoolCoins
+
+Hint: "+entryname" = add an entry to a list, "-entryname" = remove an entry from a list
+
+
+You are almost done :) Our defaults for miners and algorithms give you a good start. If you want, you can skip the settings for now
+
+
+(3) Select the devices to mine on and miningmode
+
+
+
+Well done! You made it through the setup wizard - an initial configuration has been created
+If you want to start mining, please select to exit the configuration at the following prompt. After this, in the next minutes, RainbowMiner will download all miner programs. So please be patient and let it run. There will pop up some windows, from time to time. If you happen to click into one of those black popup windows, they will hang: press return in this window to resume operation
+
+
+*** RainbowMiner Configuration ***
+
+Please choose, what to configure:
+
+- Wallet: setup wallet addresses, worker- and username, API-keys
+- Common: setup the most common RainbowMiner settings and flags
+- Energycosts: setup energy consumtion values
+- Selection: select which pools, miners, algorithm to use
+- All: step through the full setup, configuring all
+- Miners: finetune miners, add commandline arguments, penalty values and more (only for the technical savy user)
+- Pools: finetune pools, add different coin wallets, penalty values and more
+- Devices: finetune devices, select algorithms, coins and more
+- Algorithms: finetune global settings for algorithms, penalty, minimum hasrate and more
+- Coins: finetune global settings for dedicated coins, wallets, penalty, minimum hasrate and more
+- OC-Profiles: create or edit overclocking profiles
+- Network: API and client/server setup for multiple rigs within one network
+- Scheduler: different power prices and selective pause for timespans
+
+
+*** RainbowMiner Configuration ***
+
+Please choose, what to configure:
+
+- Wallet: setup wallet addresses, worker- and username, API-keys
+- Common: setup the most common RainbowMiner settings and flags
+- Energycosts: setup energy consumtion values
+- Selection: select which pools, miners, algorithm to use
+- All: step through the full setup, configuring all
+- Miners: finetune miners, add commandline arguments, penalty values and more (only for the technical savy user)
+- Pools: finetune pools, add different coin wallets, penalty values and more
+- Devices: finetune devices, select algorithms, coins and more
+- Algorithms: finetune global settings for algorithms, penalty, minimum hasrate and more
+- Coins: finetune global settings for dedicated coins, wallets, penalty, minimum hasrate and more
+- OC-Profiles: create or edit overclocking profiles
+- Network: API and client/server setup for multiple rigs within one network
+- Scheduler: different power prices and selective pause for timespans
+
+
+Exiting configuration setup - all miners will be restarted. Please be patient!
+
+Loading pool modules ..
+.. loading NiceHash
+done (1.597s)
+.. loading NLpool
+done (3.361s)
+.. loading ZergPool
+done (5.081s)
+.. loading Zpool
+done (7.069s)
+Loading balance modules ..
+Selecting best pools ..
+Loading miner modules ..
+Selecting best miners ..
+Starting downloader (37 files) ..
+Starting mining operation ..
+
+WARNING: No miners available: Downloading miners, please be patient
+
+Miners have been restarted!
+
+
+WARNING: Download in progress: 37 miners left. Command windows will popup during extraction.
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40877.671 = ETH 24.4319569997557 = USD 31577.425
+
+Waiting 28s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose, [P]ause, [L]ock
+[V] pressed - UI will be set to full in next run.
+
+
+WARNING: No miners available: Downloading miners, please be patient
+
+
+WARNING: Download in progress: 37 miners left. Command windows will popup during extraction.
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40877.671 = ETH 24.4319569997557 = USD 31577.425
+
+Waiting 52s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose off, [P]ause, [L]ock
+[B] pressed - updating Balance.
+
+GeForce GTX 970 (GPU#01)
+========================
+
+Miner        Fee Algorithm          Speed Diff Power AUD/Day  BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                      PoolFee
+-----        --- ---------          ----- ---- ----- -------- -------- -------- -------- -------- -------- ----                      -------
+Multiminer 1.00% Argon2d4096 Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% EtcHash     Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Ethereum Classic   0.50%
+Trex       1.00% HMQ1725     Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% KawPOW      Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+Trex       1.00% MegaBTX     Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-BitCore            0.50%
+Trex       2.00% Octopus     Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash-Conflux            2.00%
+Trex       1.00% Skunk       Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+Trex       1.00% SonoA       Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Sono               0.50%
+Trex       1.00% Tribus      Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Scriv              0.50%
+Trex       1.00% X16r        Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% X16rv2      Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown      85% NiceHash                    2.00%
+Trex       1.00% X16s        Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool-Shield                0.45%
+Trex       1.00% X17         Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% X21s        Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+Trex       1.00% X25x        Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+
+
+WARNING: Benchmarking in progress: 15 miners left, interval is set to 60 seconds.
+
+Please be patient!
+RainbowMiner will benchmark the following 7 miners with extended intervals!
+These algorithm need a longer time to reach an accurate average hashrate.
+After that, benchmarking will be much faster (1-2 minutes per miner).
+If you do not want that accuracy, set DisableExtendInterval to 0 in your config.txt
+
+Miner      Algorithms  Aprox. Time
+-----      ----------  -----------
+Multiminer Argon2d4096 3-6 minutes
+Trex       EtcHash     3-6 minutes
+Trex       X16r        3-6 minutes
+Trex       X16rv2      3-6 minutes
+Trex       X21s        3-6 minutes
+Trex       KawPOW      2-4 minutes
+Trex       Octopus     2-4 minutes
+
+WARNING: Download in progress: 35 miners left. Command windows will popup during extraction.
+
+   Status: Running
+
+Last Speed Active      Started Miner      Algorithm   Coin Device  Power Command
+---------- ------      ------- -----      ---------   ---- ------  ----- -------
+    0  H/s 00d/00h/00m Once    Multiminer Argon2d4096 -    GTX 970 0W    Bin\Argon2d-Multiminer\multiminer-avx2.exe -R 1 -b 33901 -a argon2d4096 -o
+                                                                         stratum+tcp://argon2d4096.mine.zergpool.com:4240 -u 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T -p
+                                                                         DesktopPC,c=BTC --gpu-id=1 --use-gpu=CUDA -q --gpu-batchsize=256 -t 1
+
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40877.671 = ETH 24.4319569997557 = USD 31577.425
+
+Waiting 50s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose off, [P]ause, [L]ock
+Finished waiting - starting next run
+
+GeForce GTX 970 (GPU#01)
+========================
+
+Miner        Fee Algorithm                Speed Diff Power AUD/Day  BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                      PoolFee
+-----        --- ---------                ----- ---- ----- -------- -------- -------- -------- -------- -------- ----                      -------
+Multiminer 1.00% Argon2d4096       Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+MiniZ      2.00% Equihash (144,5)  Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+MiniZ      2.00% Equihash (192,7)  Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+MiniZ      2.00% EquihashR (125,4) Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-ZelCash            0.50%
+Trex       1.00% EtcHash           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Ethereum Classic   0.50%
+Trex       1.00% HMQ1725           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% KawPOW            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+Trex       1.00% MegaBTX           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-BitCore            0.50%
+Trex       2.00% Octopus           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown      99% NiceHash-Conflux            2.00%
+Trex       1.00% Skunk             Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+Trex       1.00% SonoA             Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Sono               0.50%
+Trex       1.00% Tribus            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Scriv              0.50%
+Trex       1.00% X16r              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% X16rv2            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown      85% NiceHash                    2.00%
+Trex       1.00% X16s              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool-Shield                0.45%
+Trex       1.00% X17               Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Trex       1.00% X21s              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+Trex       1.00% X25x              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+
+
+WARNING: Benchmarking in progress: 18 miners left, interval is set to 60 seconds.
+
+Please be patient!
+RainbowMiner will benchmark the following 10 miners with extended intervals!
+These algorithm need a longer time to reach an accurate average hashrate.
+After that, benchmarking will be much faster (1-2 minutes per miner).
+If you do not want that accuracy, set DisableExtendInterval to 0 in your config.txt
+
+Miner      Algorithms    Aprox. Time
+-----      ----------    -----------
+MiniZ      EquihashR25x4 3-6 minutes
+Multiminer Argon2d4096   3-6 minutes
+Trex       EtcHash       3-6 minutes
+Trex       X16r          3-6 minutes
+Trex       X16rv2        3-6 minutes
+Trex       X21s          3-6 minutes
+MiniZ      Equihash24x5  2-4 minutes
+MiniZ      Equihash24x7  2-4 minutes
+Trex       KawPOW        2-4 minutes
+Trex       Octopus       2-4 minutes
+
+WARNING: Download in progress: 34 miners left. Command windows will popup during extraction.
+
+   Status: Running
+
+Last Speed Active      Started Miner      Algorithm   Coin Device  Power Command
+---------- ------      ------- -----      ---------   ---- ------  ----- -------
+    0  H/s 00d/00h/01m Once    Multiminer Argon2d4096 -    GTX 970 0W    Bin\Argon2d-Multiminer\multiminer-avx2.exe -R 1 -b 33901 -a argon2d4096 -o
+                                                                         stratum+tcp://argon2d4096.mine.zergpool.com:4240 -u 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T -p
+                                                                         DesktopPC,c=BTC --gpu-id=1 --use-gpu=CUDA -q --gpu-batchsize=256 -t 1
+
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40877.671 = ETH 24.4319569997557 = USD 31577.425
+
+Waiting 52s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose off, [P]ause, [L]ock
+Finished waiting - starting next run
+
+Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz (CPU#00)
+=================================================
+
+Miner       Fee Algorithm        Speed Diff Power AUD/Day  BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                PoolFee
+-----       --- ---------        ----- ---- ----- -------- -------- -------- -------- -------- -------- ----                -------
+Nanominer 2.00% RandomX   Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash-Monero       2.00%
+Nanominer 2.00% VerusHash Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Verus   0.50%
+
+GeForce GTX 970 (GPU#01)
+========================
+
+Miner         Fee Algorithm                Speed Diff Power AUD/Day  BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                           PoolFee
+-----         --- ---------                ----- ---- ----- -------- -------- -------- -------- -------- -------- ----                           -------
+Multiminer  1.00% Argon2d4096       Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                         0.50%
+lolminer    1.00% BeamHash3         Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash-Beam                    2.00%
+Ewbf            - Equihash (144,5)  Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-LitecoinZ          0.50%
+MiniZ       2.00% Equihash (144,5)  Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-LitecoinZ          0.50%
+Ewbf            - Equihash (192,7)  Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Zero               0.50%
+MiniZ       2.00% Equihash (192,7)  Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Zero               0.50%
+MiniZ       2.00% EquihashR (125,4) Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-ZelCash            0.50%
+Trex        1.00% EtcHash           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Ethereum Classic   0.50%
+Trex        1.00% HMQ1725           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool                         0.50%
+Nanominer   2.00% KawPOW            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash                         2.00%
+Trex        1.00% KawPOW            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash                         2.00%
+EnemyZealot 1.00% KawPOW            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% NiceHash                         2.00%
+Trex        1.00% MegaBTX           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-BitCore            0.50%
+Trex        2.00% Octopus           Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown      99% NiceHash-Conflux                 2.00%
+Trex        1.00% Skunk             Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% BlockMasters-HDAC                0.25%
+Trex        1.00% SonoA             Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPool-Sono                    0.50%
+Trex        1.00% Tribus            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Scriv              0.50%
+Trex        1.00% X16r              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-RavenDark          0.50%
+Trex        1.00% X16rv2            Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown      87% NiceHash                         2.00%
+Trex        1.00% X16s              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-SHIELD             0.50%
+Trex        1.00% X17               Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-SHIELD             0.50%
+Trex        1.00% X21s              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% Zpool                            0.45%
+Trex        1.00% X25x              Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Sinovative         0.50%
+EnemyZealot 1.00% Xevan             Benchmarking    -    0W  Unknown  Unknown  Unknown  Unknown  Unknown     100% BlockMasters                     0.25%
+
+
+WARNING: Benchmarking in progress: 26 miners left, interval is set to 60 seconds.
+
+Please be patient!
+RainbowMiner will benchmark the following 18 miners with extended intervals!
+These algorithm need a longer time to reach an accurate average hashrate.
+After that, benchmarking will be much faster (1-2 minutes per miner).
+If you do not want that accuracy, set DisableExtendInterval to 0 in your config.txt
+
+Miner       Algorithms    Aprox. Time
+-----       ----------    -----------
+EnemyZealot KawPOW        3-6 minutes
+MiniZ       EquihashR25x4 3-6 minutes
+Multiminer  Argon2d4096   3-6 minutes
+Trex        EtcHash       3-6 minutes
+Trex        X16r          3-6 minutes
+Trex        X16rv2        3-6 minutes
+Trex        X21s          3-6 minutes
+EnemyZealot Xevan         2-4 minutes
+Ewbf        Equihash24x5  2-4 minutes
+Ewbf        Equihash24x7  2-4 minutes
+lolminer    BeamHash3     2-4 minutes
+MiniZ       Equihash24x5  2-4 minutes
+MiniZ       Equihash24x7  2-4 minutes
+Nanominer   KawPOW        2-4 minutes
+Nanominer   RandomX       2-4 minutes
+Nanominer   VerusHash     2-4 minutes
+Trex        KawPOW        2-4 minutes
+Trex        Octopus       2-4 minutes
+
+WARNING: Download in progress: 30 miners left. Command windows will popup during extraction.
+
+   Status: Running
+
+Last Speed Active      Started Miner      Algorithm   Coin  Device  Power Command
+---------- ------      ------- -----      ---------   ----  ------  ----- -------
+    0  H/s 00d/00h/00m Once    Nanominer  VerusHash   Verus CPU     0W    Bin\ANY-Nanominer\nanominer.exe config_ZergPoolCoins-VerusHash-CPU.txt
+    0  H/s 00d/00h/02m Once    Multiminer Argon2d4096 -     GTX 970 0W    Bin\Argon2d-Multiminer\multiminer-avx2.exe -R 1 -b 33901 -a argon2d4096 -o
+                                                                          stratum+tcp://argon2d4096.mine.zergpool.com:4240 -u 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T -p
+                                                                          DesktopPC,c=BTC --gpu-id=1 --use-gpu=CUDA -q --gpu-batchsize=256 -t 1
+
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40877.671 = ETH 24.4319569997557 = USD 31577.425
+
+Waiting 36s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose, [P]ause, [L]ock
+Finished waiting - starting next run
+
+Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz (CPU#00)
+=================================================
+
+Miner       Fee Algorithm        Speed Diff Power AUD/Day  BTC/Day  ETH/Day  US
+                                                                             D/
+                                                                             Da
+                                                                             y
+-----       --- ---------        ----- ---- ----- -------- -------- -------- --
+Nanominer 2.00% RandomX   Benchmarking    -    0W  Unknown  Unknown  Unknown …n
+Nanominer 2.00% VerusHash Benchmarking    -    0W  Unknown  Unknown  Unknown …n
+
+GeForce GTX 970 (GPU#01)
+========================
+
+Miner         Fee Algorithm                Speed    Diff Power AUD/Day  BTC/Day
+
+-----         --- ---------                -----    ---- ----- -------- -------
+Multiminer  1.00% Argon2d4096          8.27 kH/s 194.07m  113W    0.403 …000987
+lolminer    1.00% BeamHash3         Benchmarking       -    0W  Unknown Unknown
+Ewbf            - Equihash (144,5)  Benchmarking       -    0W  Unknown Unknown
+MiniZ       2.00% Equihash (144,5)  Benchmarking       -    0W  Unknown Unknown
+Ewbf            - Equihash (192,7)  Benchmarking       -    0W  Unknown Unknown
+MiniZ       2.00% Equihash (192,7)  Benchmarking       -    0W  Unknown Unknown
+MiniZ       2.00% EquihashR (125,4) Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% EtcHash           Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% HMQ1725           Benchmarking       -    0W  Unknown Unknown
+Nanominer   2.00% KawPOW            Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% KawPOW            Benchmarking       -    0W  Unknown Unknown
+EnemyZealot 1.00% KawPOW            Benchmarking       -    0W  Unknown Unknown
+KawPOWMiner     - KawPOW            Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% MegaBTX           Benchmarking       -    0W  Unknown Unknown
+Trex        2.00% Octopus           Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% Skunk             Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% SonoA             Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% Tribus            Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% X16r              Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% X16rv2            Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% X16s              Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% X17               Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% X21s              Benchmarking       -    0W  Unknown Unknown
+Trex        1.00% X25x              Benchmarking       -    0W  Unknown Unknown
+EnemyZealot 1.00% Xevan             Benchmarking       -    0W  Unknown Unknown
+
+
+WARNING: Benchmarking in progress: 26 miners left, interval is set to 60 seconds.
+
+Please be patient!
+RainbowMiner will benchmark the following 18 miners with extended intervals!
+These algorithm need a longer time to reach an accurate average hashrate.
+After that, benchmarking will be much faster (1-2 minutes per miner).
+If you do not want that accuracy, set DisableExtendInterval to 0 in your config.txt
+
+Miner       Algorithms    Aprox. Time
+-----       ----------    -----------
+EnemyZealot KawPOW        3-6 minutes
+MiniZ       EquihashR25x4 3-6 minutes
+Trex        EtcHash       3-6 minutes
+Trex        X16r          3-6 minutes
+Trex        X16rv2        3-6 minutes
+Trex        X21s          3-6 minutes
+EnemyZealot Xevan         2-4 minutes
+Ewbf        Equihash24x5  2-4 minutes
+Ewbf        Equihash24x7  2-4 minutes
+KawPOWMiner KawPOW        2-4 minutes
+lolminer    BeamHash3     2-4 minutes
+MiniZ       Equihash24x5  2-4 minutes
+MiniZ       Equihash24x7  2-4 minutes
+Nanominer   KawPOW        2-4 minutes
+Nanominer   RandomX       2-4 minutes
+Nanominer   VerusHash     2-4 minutes
+Trex        KawPOW        2-4 minutes
+Trex        Octopus       2-4 minutes
+
+WARNING: Download in progress: 29 miners left. Command windows will popup during extraction.
+
+   Status: Running
+
+Last Speed Active      Started Miner     Algorithm         Coin    Device  Powe
+                                                                           r
+---------- ------      ------- -----     ---------         ----    ------  ----
+    0  H/s 00d/00h/00m Once    MiniZ     EquihashR (125,4) ZelCash GTX 970 0W
+    0  H/s 00d/00h/01m Once    Nanominer VerusHash         Verus   CPU     0W
+
+   Status: Idle
+
+Last Speed Active      Started Miner      Algorithm   Coin Device  Power Comman
+                                                                         d
+---------- ------      ------- -----      ---------   ---- ------  ----- ------
+ 8.27 kH/s 00d/00h/00m Once    Multiminer Argon2d4096 -    GTX 970 113W  Bin\Ar
+                                                                         gon2d-
+                                                                         Multim
+                                                                         iner\m
+                                                                         ultimi
+                                                                         ner-av
+                                                                         x2.exe
+                                                                          -R 1
+                                                                         -b
+                                                                         33901
+                                                                         -a arg
+                                                                         on2d40
+                                                                         96 -o
+                                                                         stratu
+                                                                         m+tcp:
+                                                                         //argo
+                                                                         n2d409
+                                                                         6.mine
+                                                                         .zergp
+                                                                         ool.co
+                                                                         m:4240
+                                                                          -u 35
+                                                                         9kk1TJ
+                                                                         4BTZ1z
+                                                                         FWKcPU
+                                                                         TAoKpp
+                                                                         5V7Yjm
+                                                                         6T -p
+                                                                         Deskto
+                                                                         pPC,c=
+                                                                         BTC --
+                                                                         gpu-id
+                                                                         =1 --u
+                                                                         se-gpu
+                                                                         =CUDA
+                                                                         -q --g
+                                                                         pu-bat
+                                                                         chsize
+                                                                         =256
+                                                                         -t 1
+
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40877.671 = ETH 24.4319569997557 = USD 31577.425
+
+Waiting 21s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose, [P]ause, [L]ock
+Finished waiting - starting next run
+
+Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz (CPU#00)
+=================================================
+
+Miner       Fee Algorithm        Speed Diff Power AUD/Day    BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                PoolFee
+-----       --- ---------        ----- ---- ----- --------   -------- -------- -------- -------- -------- ----                -------
+Nanominer 2.00% RandomX   Benchmarking    -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash-Monero       2.00%
+Nanominer 2.00% VerusHash    5.86 MH/s    -   64W    0.146 0.00000356 0.000087    0.113  Unknown      98% ZergPoolCoins-Verus   0.50%
+
+GeForce GTX 970 (GPU#01)
+========================
+
+Miner         Fee Algorithm                Speed    Diff Power AUD/Day    BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                      PoolFee
+-----         --- ---------                -----    ---- ----- --------   -------- -------- -------- -------- -------- ----                      -------
+Multiminer  1.00% Argon2d4096          8.27 kH/s 194.07m  113W    0.403 0.00000984 0.000240    0.311  Unknown     100% ZergPool                    0.50%
+lolminer    1.00% BeamHash3         Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash-Beam               2.00%
+Ewbf            - Equihash (144,5)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-LitecoinZ     0.50%
+MiniZ       2.00% Equihash (144,5)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-LitecoinZ     0.50%
+Ewbf            - Equihash (192,7)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Zero          0.50%
+MiniZ       2.00% Equihash (192,7)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Zero          0.50%
+MiniZ       2.00% EquihashR (125,4) Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-ZelCash       0.50%
+Trex        1.00% EtcHash           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPool-Ethereum Classic   0.50%
+Trex        1.00% HMQ1725           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Nanominer   2.00% KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+Trex        1.00% KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+EnemyZealot 1.00% KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+KawPOWMiner     - KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+Trex        1.00% MegaBTX           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-BitCore       0.50%
+Trex        2.00% Octopus           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% NiceHash-Conflux            2.00%
+Trex        1.00% Skunk             Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% BlockMasters-HDAC           0.25%
+Trex        1.00% SonoA             Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      97% ZergPoolCoins-Sono          0.50%
+Trex        1.00% Tribus            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      93% ZergPoolCoins-Scriv         0.50%
+Trex        1.00% X16r              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      97% ZergPoolCoins-RavenDark     0.50%
+Trex        1.00% X16rv2            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      85% NiceHash                    2.00%
+Trex        1.00% X16s              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-SHIELD        0.50%
+Trex        1.00% X17               Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% ZergPoolCoins-SHIELD        0.50%
+Trex        1.00% X21s              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+Trex        1.00% X25x              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% ZergPoolCoins-Sinovative    0.50%
+EnemyZealot 1.00% Xevan             Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% BlockMasters                0.25%
+
+
+WARNING: Benchmarking in progress: 25 miners left, interval is set to 60 seconds.
+
+Please be patient!
+RainbowMiner will benchmark the following 17 miners with extended intervals!
+These algorithm need a longer time to reach an accurate average hashrate.
+After that, benchmarking will be much faster (1-2 minutes per miner).
+If you do not want that accuracy, set DisableExtendInterval to 0 in your config.txt
+
+Miner       Algorithms    Aprox. Time
+-----       ----------    -----------
+EnemyZealot KawPOW        3-6 minutes
+MiniZ       EquihashR25x4 3-6 minutes
+Trex        EtcHash       3-6 minutes
+Trex        X16r          3-6 minutes
+Trex        X16rv2        3-6 minutes
+Trex        X21s          3-6 minutes
+EnemyZealot Xevan         2-4 minutes
+Ewbf        Equihash24x5  2-4 minutes
+Ewbf        Equihash24x7  2-4 minutes
+KawPOWMiner KawPOW        2-4 minutes
+lolminer    BeamHash3     2-4 minutes
+MiniZ       Equihash24x5  2-4 minutes
+MiniZ       Equihash24x7  2-4 minutes
+Nanominer   KawPOW        2-4 minutes
+Nanominer   RandomX       2-4 minutes
+Trex        KawPOW        2-4 minutes
+Trex        Octopus       2-4 minutes
+
+WARNING: Download in progress: 29 miners left. Command windows will popup during extraction.
+
+   Status: Running
+
+Last Speed Active      Started Miner     Algorithm         Coin    Device  Power Command
+---------- ------      ------- -----     ---------         ----    ------  ----- -------
+    0  H/s 00d/00h/01m Once    MiniZ     EquihashR (125,4) ZelCash GTX 970 0W    Bin\NVIDIA-MiniZ\miniZ.exe --telemetry 33001 -cd 0 --server equihash125.mine.zergpool.com
+                                                                                 --port 2150 --user 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T --pass DesktopPC,c=BTC,mc=ZEL --pers
+                                                                                 ZelProof --gpu-line --extra --latency --nocolor --par=125,4
+    0  H/s 00d/00h/00m Once    Nanominer RandomX           Monero  CPU     0W    Bin\ANY-Nanominer\nanominer.exe config_NiceHash-RandomX-CPU.txt
+
+   Status: Idle
+
+Last Speed Active      Started Miner      Algorithm   Coin  Device  Power Command
+---------- ------      ------- -----      ---------   ----  ------  ----- -------
+ 5.86 MH/s 00d/00h/00m Once    Nanominer  VerusHash   Verus CPU     64W   Bin\ANY-Nanominer\nanominer.exe config_ZergPoolCoins-VerusHash-CPU.txt
+ 8.27 kH/s 00d/00h/00m Once    Multiminer Argon2d4096 -     GTX 970 113W  Bin\Argon2d-Multiminer\multiminer-avx2.exe -R 1 -b 33901 -a argon2d4096 -o
+                                                                          stratum+tcp://argon2d4096.mine.zergpool.com:4240 -u 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T -p
+                                                                          DesktopPC,c=BTC --gpu-id=1 --use-gpu=CUDA -q --gpu-batchsize=256 -t 1
+
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40933.708 = ETH 24.333860566979 = USD 31611.555
+
+Waiting 44s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose, [P]ause, [L]ock
+Finished waiting - starting next run
+
+Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz (CPU#00)
+=================================================
+
+Miner       Fee Algorithm        Speed Diff Power AUD/Day    BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                PoolFee
+-----       --- ---------        ----- ---- ----- --------   -------- -------- -------- -------- -------- ----                -------
+Nanominer 2.00% RandomX   Benchmarking    -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash-Monero       2.00%
+Nanominer 2.00% VerusHash    5.86 MH/s    -   64W    0.146 0.00000356 0.000087    0.113  Unknown      99% ZergPoolCoins-Verus   0.50%
+
+GeForce GTX 970 (GPU#01)
+========================
+
+Miner         Fee Algorithm                Speed    Diff Power AUD/Day    BTC/Day  ETH/Day  USD/Day  XMP/Day  Accuracy Pool                      PoolFee
+-----         --- ---------                -----    ---- ----- --------   -------- -------- -------- -------- -------- ----                      -------
+Multiminer  1.00% Argon2d4096          8.27 kH/s 194.07m  113W    0.400 0.00000978 0.000238    0.309  Unknown     100% ZergPool                    0.50%
+lolminer    1.00% BeamHash3         Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash-Beam               2.00%
+Ewbf            - Equihash (144,5)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-LitecoinZ     0.50%
+MiniZ       2.00% Equihash (144,5)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-LitecoinZ     0.50%
+Ewbf            - Equihash (192,7)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Zero          0.50%
+MiniZ       2.00% Equihash (192,7)  Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-Zero          0.50%
+MiniZ       2.00% EquihashR (125,4) Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% ZergPoolCoins-ZelCash       0.50%
+Trex        1.00% EtcHash           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPool-Ethereum Classic   0.50%
+Trex        1.00% HMQ1725           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPool                    0.50%
+Nanominer   2.00% KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+Trex        1.00% KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+EnemyZealot 1.00% KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+KawPOWMiner     - KawPOW            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% NiceHash                    2.00%
+Trex        1.00% MegaBTX           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-BitCore       0.50%
+Trex        2.00% Octopus           Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% NiceHash-Conflux            2.00%
+Trex        1.00% Skunk             Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% BlockMasters-HDAC           0.25%
+Trex        1.00% SonoA             Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      98% ZergPoolCoins-Sono          0.50%
+Trex        1.00% Tribus            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      95% ZergPoolCoins-Scriv         0.50%
+Trex        1.00% X16r              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      98% ZergPoolCoins-RavenDark     0.50%
+Trex        1.00% X16rv2            Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      84% NiceHash                    2.00%
+Trex        1.00% X16s              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% ZergPoolCoins-SHIELD        0.50%
+Trex        1.00% X17               Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% ZergPoolCoins-SHIELD        0.50%
+Trex        1.00% X21s              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% Zpool                       0.45%
+Trex        1.00% X25x              Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown      99% ZergPoolCoins-Sinovative    0.50%
+EnemyZealot 1.00% Xevan             Benchmarking       -    0W  Unknown    Unknown  Unknown  Unknown  Unknown     100% BlockMasters                0.25%
+
+
+WARNING: Benchmarking in progress: 25 miners left, interval is set to 60 seconds.
+
+Please be patient!
+RainbowMiner will benchmark the following 17 miners with extended intervals!
+These algorithm need a longer time to reach an accurate average hashrate.
+After that, benchmarking will be much faster (1-2 minutes per miner).
+If you do not want that accuracy, set DisableExtendInterval to 0 in your config.txt
+
+Miner       Algorithms    Aprox. Time
+-----       ----------    -----------
+EnemyZealot KawPOW        3-6 minutes
+MiniZ       EquihashR25x4 3-6 minutes
+Trex        EtcHash       3-6 minutes
+Trex        X16r          3-6 minutes
+Trex        X16rv2        3-6 minutes
+Trex        X21s          3-6 minutes
+EnemyZealot Xevan         2-4 minutes
+Ewbf        Equihash24x5  2-4 minutes
+Ewbf        Equihash24x7  2-4 minutes
+KawPOWMiner KawPOW        2-4 minutes
+lolminer    BeamHash3     2-4 minutes
+MiniZ       Equihash24x5  2-4 minutes
+MiniZ       Equihash24x7  2-4 minutes
+Nanominer   KawPOW        2-4 minutes
+Nanominer   RandomX       2-4 minutes
+Trex        KawPOW        2-4 minutes
+Trex        Octopus       2-4 minutes
+
+WARNING: Download in progress: 29 miners left. Command windows will popup during extraction.
+
+   Status: Running
+
+Last Speed Active      Started Miner     Algorithm         Coin    Device  Power Command
+---------- ------      ------- -----     ---------         ----    ------  ----- -------
+    0  H/s 00d/00h/02m Once    MiniZ     EquihashR (125,4) ZelCash GTX 970 0W    Bin\NVIDIA-MiniZ\miniZ.exe --telemetry 33001 -cd 0 --server equihash125.mine.zergpool.com
+                                                                                 --port 2150 --user 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T --pass DesktopPC,c=BTC,mc=ZEL --pers
+                                                                                 ZelProof --gpu-line --extra --latency --nocolor --par=125,4
+    0  H/s 00d/00h/01m Once    Nanominer RandomX           Monero  CPU     0W    Bin\ANY-Nanominer\nanominer.exe config_NiceHash-RandomX-CPU.txt
+
+   Status: Idle
+
+Last Speed Active      Started Miner      Algorithm   Coin  Device  Power Command
+---------- ------      ------- -----      ---------   ----  ------  ----- -------
+ 5.86 MH/s 00d/00h/00m Once    Nanominer  VerusHash   Verus CPU     64W   Bin\ANY-Nanominer\nanominer.exe config_ZergPoolCoins-VerusHash-CPU.txt
+ 8.27 kH/s 00d/00h/00m Once    Multiminer Argon2d4096 -     GTX 970 113W  Bin\Argon2d-Multiminer\multiminer-avx2.exe -R 1 -b 33901 -a argon2d4096 -o
+                                                                          stratum+tcp://argon2d4096.mine.zergpool.com:4240 -u 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T -p
+                                                                          DesktopPC,c=BTC --gpu-id=1 --use-gpu=CUDA -q --gpu-batchsize=256 -t 1
+
+ Profit = 0.000 AUD/Day | 0.00000000 BTC/Day | 0.000000 ETH/Day | 0.000 USD/Day | 1 BTC = AUD 40933.708 = ETH 24.333860566979 = USD 31611.555
+
+Waiting 40s until next run: E[x]it, [R]estart, [B]alance update, [S]kip SP, [W]D reset, [C]onfiguration, [V]erbose, [P]ause, [L]ock
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> $global:?
+False

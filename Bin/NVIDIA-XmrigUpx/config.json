@@ -1,0 +1,35 @@
+{
+    "algo": "cryptonight-extremelite",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "colors": true,
+    "donate-level": 5,
+    "log-file": null,
+    "pools": [
+        {
+            "url": "donate2.graef.in:8188",
+            "user": "YOUR_WALLET",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "variant": "upx2",
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "user-agent": null,
+    "syslog": false,
+    "watch": true
+}

@@ -1,0 +1,14 @@
+************ miniZ v1.6x ************
+Algo:		EQ[125,4] 
+Pool#0: 	user[359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T]
+		server[equihash125.mine.zergpool.com] port[2150] ssl[no] pers[ZelProof]
+Telemetry:	[http://localhost:33001]
+Temp. limit:	[90°C]
+miniZ<125,4>[00:0:00:3381]: Selecting GPU#0[0] GeForce GTX 970
+[ 0d 0h 0m06s] S:  0/0  0( 0.0)Sol/s   0(  0.0)W [equihash125.mine.zergpool.com]- 990ms (100.0%) (0.0%)
+ 0>GTX 970       100% [80°C/84%] 0.00 I/s 0.0(0.0)Sol/s   0(  0.0)W clk=1228MHz mclk=3505MHz Sol/W=-nan(ind)
+[ 0d 0h 0m10s] S:  0/0  1( 0.8)Sol/s   0(  0.0)W [equihash125.mine.zergpool.com]- 990ms (100.0%) (0.0%)
+ 0>GTX 970       100% [79°C/84%] 0.39 I/s 0.8(0.8)Sol/s   0(  0.0)W clk=1228MHz mclk=3505MHz Sol/W=inf
+[FATAL  ] GPU[0]: CUDA error 6 'the launch timed out and was terminated' in line 1388
+[INFO   ] Disconnecting from equihash125.mine.zergpool.com
+[INFO   ]equihash125.mine.zergpool.com Stopping miner

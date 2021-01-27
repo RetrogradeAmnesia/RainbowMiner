@@ -1,0 +1,43 @@
+-------------------------------------------------------------------
+xmr-stak 2.10.8 67cf951b1
+
+Brought to you by fireice_uk and psychocrypt under GPLv3.
+Based on CPU mining code by wolf9466 (heavily optimized by fireice_uk).
+Based on NVIDIA mining code by KlausT and psychocrypt.
+Based on OpenCL mining code by wolf9466.
+
+Configurable dev donation level is set to 0.0%
+
+-------------------------------------------------------------------
+You can use following keys to display reports:
+'h' - hashrate
+'r' - results
+'c' - connection
+-------------------------------------------------------------------
+Upcoming xmr-stak-gui is sponsored by:
+   #####   ______               ____
+ ##     ## | ___ \             /  _ \
+#    _    #| |_/ /_   _   ___  | / \/ _   _  _ _  _ _  ___  _ __    ___  _   _
+#   |_|   #|    /| | | | / _ \ | |   | | | || '_|| '_|/ _ \| '_ \  / __|| | | |
+#         #| |\ \| |_| || (_) || \_/\| |_| || |  | | |  __/| | | || (__ | |_| |
+ ##     ## \_| \_|\__, | \___/ \____/ \__,_||_|  |_|  \___||_| |_| \___| \__, |
+   #####           __/ |                                                  __/ |
+                  |___/   https://ryo-currency.com                       |___/
+
+This currency is a way for us to implement the ideas that we were unable to in
+Monero. See https://github.com/fireice-uk/cryptonote-speedup-demo for details.
+-------------------------------------------------------------------
+[2021-01-27 22:24:20] : Mining coin: cryptonight_haven
+[2021-01-27 22:24:20] : Starting 1x thread, affinity: 0.
+[2021-01-27 22:24:21] : hwloc: memory pinned
+[2021-01-27 22:24:21] : Starting 1x thread, affinity: 2.
+[2021-01-27 22:24:21] : hwloc: memory pinned
+[2021-01-27 22:24:21] : Fast-connecting to cryptonight_haven.mine.zergpool.com:4452 pool ...
+[2021-01-27 22:24:21] : Pool cryptonight_haven.mine.zergpool.com:4452 connected. Logging in...
+[2021-01-27 22:24:22] : Difficulty changed. Now: 20000.
+[2021-01-27 22:24:22] : Pool logged in.
+[2021-01-27 22:24:22] : New block detected.
+[2021-01-27 22:24:32] : New block detected.
+[2021-01-27 22:24:35] : CPU: Share accepted. Pool: cryptonight_haven.mine.zergpool.com:4452
+[2021-01-27 22:25:10] : Difficulty changed. Now: 13365.
+[2021-01-27 22:25:10] : New block detected.

@@ -1,0 +1,67 @@
+
+CPU0 : Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz [L3:   8192 KB][L2:  1024 KB][L1:  128 KB][PU:   8]
+
+======================================================================
+SRBMiner-MULTI 0.6.3
+
+Press 's' to display stats
+Press 'h' to display hashrate
+Press 'p' to switch to the next pool
+Press 'o' to switch to the previous pool
+======================================================================
+
+Algorithm/s         : yespowerr16 [0.85% fee]
+Gpu mining          : disabled
+Cpu mining          : enabled
+Huge-pages          : enabled
+HW-Aes              : available
+
+[2021-01-27 22:35:06] 4 CPU core/s - 8 thread/s detected
+[2021-01-27 22:35:06] Using 4 thread/s for CPU mining
+[2021-01-27 22:35:08] Connected to yespowerr16.sea.mine.zpool.ca:6534 [yespowerr16]
+[2021-01-27 22:35:16] Difficulty 0.010000 [yespowerr16][0]
+[2021-01-27 22:35:16] Job received [a27f] block height 830059 [yespowerr16][0]
+[2021-01-27 22:35:17] CPU result accepted      [  279ms] [yespowerr16][0]
+[2021-01-27 22:35:17] CPU result accepted      [  282ms] [yespowerr16][0]
+[2021-01-27 22:35:18] CPU result accepted      [  275ms] [yespowerr16][0]
+[2021-01-27 22:35:18] CPU result accepted      [  267ms] [yespowerr16][0]
+[2021-01-27 22:35:18] CPU result accepted      [  282ms] [yespowerr16][0]
+[2021-01-27 22:35:19] CPU result accepted      [  263ms] [yespowerr16][0]
+[2021-01-27 22:35:19] CPU result accepted      [  270ms] [yespowerr16][0]
+[2021-01-27 22:35:20] CPU result accepted      [  272ms] [yespowerr16][0]
+[2021-01-27 22:35:20] CPU result accepted      [  263ms] [yespowerr16][0]
+[2021-01-27 22:35:23] CPU result accepted      [  286ms] [yespowerr16][0]
+[2021-01-27 22:35:23] CPU result accepted      [  263ms] [yespowerr16][0]
+[2021-01-27 22:35:23] CPU result accepted      [  283ms] [yespowerr16][0]
+[2021-01-27 22:35:23] CPU result accepted      [  273ms] [yespowerr16][0]
+[2021-01-27 22:35:25] CPU result accepted      [  290ms] [yespowerr16][0]
+[2021-01-27 22:35:28] CPU result accepted      [  292ms] [yespowerr16][0]
+[2021-01-27 22:35:29] CPU result accepted      [  272ms] [yespowerr16][0]
+[2021-01-27 22:35:30] CPU result accepted      [  277ms] [yespowerr16][0]
+[2021-01-27 22:35:31] CPU result accepted      [  298ms] [yespowerr16][0]
+[2021-01-27 22:35:31] CPU result accepted      [  264ms] [yespowerr16][0]
+[2021-01-27 22:35:33] CPU result accepted      [  273ms] [yespowerr16][0]
+[2021-01-27 22:35:34] CPU result accepted      [  268ms] [yespowerr16][0]
+[2021-01-27 22:35:35] CPU result accepted      [  289ms] [yespowerr16][0]
+[2021-01-27 22:35:36] CPU result accepted      [  283ms] [yespowerr16][0]
+[2021-01-27 22:35:37] Difficulty 0.048000 [yespowerr16][0]
+[2021-01-27 22:35:37] Job received [a280] block height 830059 [yespowerr16][0]
+[2021-01-27 22:35:37] CPU result accepted      [  264ms] [yespowerr16][0]
+[2021-01-27 22:35:37] CPU result accepted      [  270ms] [yespowerr16][0]
+[2021-01-27 22:35:39] CPU result accepted      [  280ms] [yespowerr16][0]
+[2021-01-27 22:35:43] CPU result accepted      [  286ms] [yespowerr16][0]
+[2021-01-27 22:35:44] CPU result accepted      [  296ms] [yespowerr16][0]
+[2021-01-27 22:35:46] CPU result accepted      [  278ms] [yespowerr16][0]
+[2021-01-27 22:35:48] CPU result accepted      [  277ms] [yespowerr16][0]
+[2021-01-27 22:35:48] CPU result accepted      [  286ms] [yespowerr16][0]
+[2021-01-27 22:35:50] CPU result accepted      [  285ms] [yespowerr16][0]
+[2021-01-27 22:35:53] CPU result accepted      [  284ms] [yespowerr16][0]
+[2021-01-27 22:35:55] CPU result accepted      [  279ms] [yespowerr16][0]
+[2021-01-27 22:35:56] CPU result accepted      [  264ms] [yespowerr16][0]
+[2021-01-27 22:35:58] Job received [a281] block height 830059 [yespowerr16][0]
+[2021-01-27 22:35:58] CPU result accepted      [  262ms] [yespowerr16][0]
+[2021-01-27 22:36:11] CPU result accepted      [  271ms] [yespowerr16][0]
+[2021-01-27 22:36:14] CPU result accepted      [  275ms] [yespowerr16][0]
+[2021-01-27 22:36:18] CPU result accepted      [  297ms] [yespowerr16][0]
+[2021-01-27 22:36:19] Job received [a282] block height 830059 [yespowerr16][0]
+[2021-01-

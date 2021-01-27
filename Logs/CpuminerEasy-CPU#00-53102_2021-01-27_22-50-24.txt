@@ -1,0 +1,44 @@
+
+         **********  cpuminer-easy 3.7.0  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AES_NI and AVX extensions.
+     This software has been developped by Luis Vasquez
+     With credits to Jay D Dee's, TPruvot, Lucas Jones, elmad, palmd,
+     djm34, pooler, ig0tik3d, Wolf0, Jeff Garzik and Optiminer.
+
+     It's completelly free! But If you WANT, you can pay me a coffee :)
+     BTC: 1B9ZDrHDjVDXCazFAmApUSCXAsbQ1fn98h
+     XMR: 45TVYqXTMTqgBfbjP1w2479Ey6j1dWHjjKnioM778jh4FTR587P6VmUb3mipA8hVfFYp7iBXYecJCHwqZtjj368x5wvjffg
+     XDN: dddG1nMJADodgxDLCugr6Nf1gAoNDGainhWEgnJjSHLKesFHjPu7TeKBQHUC9WySNpchTeT6EP3ppCmtoU11LGCV2bd2pGFAF
+
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+CPU features: SSE2 AES AVX AVX2
+SW built on Dec 21 2018 with GCC 7.3.0
+SW features: SSE2 AES AVX
+Algo features: SSE2 AES AVX AVX2
+Start mining with SSE2 AES AVX
+
+[2021-01-27 22:50:25][01;30m Binding process to cpu mask 55[0m
+[2021-01-27 22:50:26] Starting Stratum on stratum+tcp://binarium-v1.sea.mine.zpool.ca:6666[0m
+4 miner threads started, using 'Binarium_hash_v1' algorithm.[2021-01-27 22:50:26] 4 miner threads started, using 'Binarium_hash_v1' algorithm.[0m
+[2021-01-27 22:50:28][33m Stratum difficulty set to 0.001[0m
+[2021-01-27 22:50:28][36m Binarium_hash_v1 block 603169, diff 0.067[0m
+[2021-01-27 22:50:44] CPU #1: 262.14 kH, 16.67 kH/s[0m
+[2021-01-27 22:50:44] CPU #2: 262.14 kH, 16.66 kH/s[0m
+[2021-01-27 22:50:44] CPU #3: 262.14 kH, 16.64 kH/s[0m
+[2021-01-27 22:50:44] CPU #0: 262.14 kH, 16.39 kH/s[0m
+[2021-01-27 22:51:05][01;37m [32mAccepted[01;37m 1/1 (100%), ? shares/min, 1081.86 kH, 64.58 kH/s[0m
+[2021-01-27 22:51:09] CPU #0: 295.43 kH, 14.61 kH/s[0m
+[2021-01-27 22:51:10] CPU #3: 366.86 kH, 14.49 kH/s[0m
+[2021-01-27 22:51:10] CPU #2: 375.55 kH, 14.83 kH/s[0m
+[2021-01-27 22:51:10] CPU #1: 375.61 kH, 14.82 kH/s[0m
+[2021-01-27 22:51:10] CPU #0: 10.79 kH, 12.78 kH/s[0m
+[2021-01-27 22:51:28][01;37m [32mAccepted[01;37m 2/2 (100%), 5.2 shares/min, 1395.78 kH, 59.69 kH/s[0m
+[2021-01-27 22:51:31] CPU #0: 277.76 kH, 15.55 kH/s[0m
+[2021-01-27 22:52:02] CPU #3: 869.69 kH, 16.45 kH/s[0m
+[2021-01-27 22:52:03] CPU #1: 889.41 kH, 16.49 kH/s[0m
+[2021-01-27 22:52:07] CPU #2: 889.63 kH, 15.56 kH/s[0m
+[2021-01-27 22:52:13] CPU #0: 641.44 kH, 15.54 kH/s[0m
+[2021-01-27 22:52:13] CPU #3: 138.48 kH, 13.48 kH/s[0m
+[2021-01-27 22:52:13] CPU #1: 111.19 kH, 12.04 kH/s[0m
+[2021-01-27 22:52:13] CPU #2: 74.79 kH, 12.51 kH/s[0m

@@ -1,0 +1,66 @@
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@*                                     *@@   ******  pool.rplant.xyz ******
+ @@                                         @@
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@  Newborns CPU&GPU altcoins
+ @@   .@(                             /@.   @@
+ @@   .@(                             /@.   @@    - lowdiff ports
+ @@   .@(               /             /@.   @@
+ @@   .@(       @@     ,@    @@       /@.   @@    - without registration
+ @@   .@(              ,@             /@.   @@
+ @@   .@(              ,@             /@.   @@    - 1% pool fee for all coins
+ @@   .@(              ,@             /@.   @@
+ @@   .@(           @@@@@             /@.   @@    - fair payments every hour
+ @@   .@(                             /@.   @@
+ @@   .@(        @@         @@        /@.   @@    - dedicated servers
+ @@   .@(         @@@@@@@@@@@         /@.   @@
+ @@   .@(                             /@.   @@    - Europe, Russia, Asia,
+ @@   .@(                             /@.   @@      North-America stratums
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@
+ @@                                         @@    - SSL ports
+ @@                                         @@
+ @@   .@(  @@   @@        &&&&&&&&&&&&&&    @@    Discord:
+ @@    /    ,                               @@       https://discord.gg/eHzNXmp
+ @@                                         @@    Telegram:
+ @@                                         @@       https://t.me/RPLANT_POOL
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     @&                                 &@      ******  pool.rplant.xyz ******
+     @&                                 &@
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
+
+Donations:
+BTC  1Bkg23fU9EnazGw2yyYVwQKHmjq1MRsEx4
+LTC  MSAf4idBNJQ4mfPDqAR5uycAkVRBi3AxjD
+DOGE DQxJHVR7ZGFbpnpbHrXUEzJsovJvoGz633
+
+         **********  cpuminer-rplant 5.0.11W-avx2 *********** 
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Jan  5 2021 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: AVX2  
+
+Starting miner with AVX2...
+
+[2021-01-27 22:26:16] CPU affinity [!.!.!.!.][0m
+[2021-01-27 22:26:16] API listnening to 127.0.0.1:53202[0m
+[2021-01-27 22:26:16][36m Stratum connect lyra2z330.mine.zergpool.com:4563[0m
+[2021-01-27 22:26:16] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 22:26:16] 4 of 8 miner threads started using 'lyra2z330' algorithm[0m
+[2021-01-27 22:26:19] Extranonce subscription enabled[0m
+[2021-01-27 22:26:19][36m Stratum connection established[0m
+[2021-01-27 22:26:19][36m New stratum difficulty 0.002[0m
+[2021-01-27 22:26:19][36m lyra2z330.mine.zergpool.com:4563 lyra2z330 block 824477, job 780, network diff 0.0066145443[0m
+[2021-01-27 22:26:24][01;37m Share 1 submitted diff 0.000009, block 824477, job 780[0m
+[2021-01-27 22:26:25][01;37m [01;37m[32mAccepted [01;37m1/1 (100.0%), diff 0.00000900, 0.00 H/s, 7.716 sec (878ms)[0m
+[2021-01-27 22:27:18][01;37m Share 2 submitted diff 0.000013, block 824477, job 781[0m
+[2021-01-27 22:27:19][01;37m [01;37m[32mAccepted [01;37m2/2 (100.0%), diff 0.00001327, 601.88 H/s, 54.080 sec (788ms)[0m
+[2021-01-27 22:27:35][01;37m Share 3 submitted diff 0.000029, block 824477, job 781[0m
+[2021-01-27 22:27:36][01;37m [01;37m[32mAccepted [01;37m3/3 (100.0%), diff 0.00002899, 601.88 H/s, 16.961 sec (802ms)[0m
+[2021-01-27 22:27:41][36m New stratum difficulty 0.00114598[0m
+[2021-01-27 22:27:46][01;37m Share 4 submitted diff 0.000083, block 824477, job 782[0m
+[2021-01-27 22:27:46][01;37m [01;37m[32mAccepted [01;37m4/4 (100.0%), diff 0.00008279, 608.60 H/s, 10.720 sec (599ms)[0m
+[2021-01-27 22:28:09][01;37m Share 5 submitted diff 0.000048, block 824477, job 782[0m
+[2021-01-27 22:28:10][01;37m [01;37m[32mAccepted [01;37m5/5 (100.0%), diff 0.00004791, 608.60 H/s, 23.550 sec (558ms)[0m
+[2021-01-27 22:28:29][01;37m Share 6 submitted diff 0.000005, block 824477, job 782[0m
+[2021-01-27 22:28:30][01;37m [01;37m[32mAccepted [01;37m6/6 (100.0%), diff 0.00000548, 608.60 H/s, 20.144 sec (940ms)[0m

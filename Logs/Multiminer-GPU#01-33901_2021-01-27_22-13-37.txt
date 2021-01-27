@@ -1,0 +1,27 @@
+[Device #1] CUDA Device 'GeForce GTX 970'
+Start mining on device #1.
+
+
+         **********  multiminer 1.1.0.0  *********** 
+     A CPU/GPU miner with multi algo support and optimized for CPUs
+     with AES_NI and AVX2 and SHA extensions.
+
+[2021-01-27 22:13:38] 8 CPU cores available, 1 miner threads selected.[0m
+[2021-01-27 22:13:38] Starting Stratum on stratum+tcp://argon2d4096.mine.zergpool.com:4240[0m
+[Thread 0] Device #1: CUDA Device 'GeForce GTX 970'
+[2021-01-27 22:13:42] 1 miner threads started, using 'argon2d4096' algorithm.[0m
+[2021-01-27 22:13:42][33m Stratum difficulty set to 4[0m
+[2021-01-27 22:14:18][01;37m Share submitted.[0m
+[2021-01-27 22:14:19][01;37m [32mAccepted[01;37m 1/1 (100%), 91.57 kH, 8310.12 H/s[0m
+[2021-01-27 22:14:34][01;37m Share submitted.[0m
+[2021-01-27 22:14:35][01;37m [32mAccepted[01;37m 2/2 (100%), 135.41 kH, 8303.53 H/s[0m
+[2021-01-27 22:14:35][01;37m Share submitted.[0m
+[2021-01-27 22:14:36][01;37m [32mAccepted[01;37m 3/3 (100%), 5937 H, 7982.86 H/s[0m
+[2021-01-27 22:14:53][01;37m Share submitted.[0m
+[2021-01-27 22:14:54][01;37m [32mAccepted[01;37m 4/4 (100%), 151.08 kH, 8302.81 H/s[0m
+[2021-01-27 22:15:21][01;37m Share submitted.[0m
+[2021-01-27 22:15:22][01;37m [32mAccepted[01;37m 5/5 (100%), 48.60 kH, 8316.87 H/s[0m
+[2021-01-27 22:15:50][01;37m Share submitted.[0m
+[2021-01-27 22:15:51][01;37m [32mAccepted[01;37m 6/6 (100%), 240.90 kH, 8298.73 H/s[0m
+[2021-01-27 22:16:29][01;37m Share submitted.[0m
+[2021-01-27 22:16:30][01;37m [32mAccepted[01;37m 7/7 (100%), 89.77 kH, 8249.98 H/s[0m

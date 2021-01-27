@@ -1,0 +1,50 @@
+
+         **********  cpuminer-RKZ 3.9.5.2  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AES_NI and AVX2 and SHA extensions.
+     BTC donation address: 3Pzm5Syv59SW5pY2nBD62DFqzmdFu73psQ
+
+
+
+
+ cpuminer-RKZ 3.9.5.2 
+ RickillerZ Fork
+ https://github.com/RickillerZ 
+
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz.
+SW built on Oct  1 2019 with GCC 7.3.0.
+CPU features: SSE2 AES SSE4.2 AVX AVX2.
+SW features: SSE2 AES SSE4.2 AVX AVX2.
+Algo features: SSE2 SHA.
+Start mining with SSE2.
+
+[2021-01-27 23:11:20] 8 CPU cores available, 4 miner threads selected.[0m
+[2021-01-27 23:11:20][01;30m Binding process to cpu mask 55[0m
+[2021-01-27 23:11:20] Starting Stratum on stratum+tcp://yescrypt.mine.zergpool.com:6233[0m
+[2021-01-27 23:11:20] 4 miner threads started, using 'yescrypt' algorithm.[0m
+[2021-01-27 23:11:22][36m Stratum difficulty set to 0.8[0m
+[2021-01-27 23:11:22][36m yescrypt block 871521, job 181e, network diff 0.0002[0m
+[2021-01-27 23:11:47][36m Share 1 submitted by thread 2, job 181e.[0m
+[2021-01-27 23:11:47][01;37m [32mAccepted[01;37m, diff [36m2.12e-005[01;37m, 27.106 secs, A/R/B: 1/0/0.[0m
+[2021-01-27 23:11:47][01;37m Miner 2244.95 H/s, Share [33m838.87 H/s[01;37m, Latency 546 ms.[0m
+[2021-01-27 23:11:47][01;37m Height 871521, job 181e, 8.67404% block share.[0m
+[2021-01-27 23:11:47] - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[2021-01-27 23:12:07][36m New job 1823.[0m
+[2021-01-27 23:12:19][36m Share 2 submitted by thread 2, job 1823.[0m
+[2021-01-27 23:12:19][01;37m [32mAccepted[01;37m, diff [32m0.000161[01;37m, 31.855 secs, A/R/B: 2/0/0.[0m
+[2021-01-27 23:12:19][01;37m Miner 2620.60 H/s, Share [36m5435.36 H/s[01;37m, Latency 690 ms.[0m
+[2021-01-27 23:12:19][01;37m Height 871521, job 1823, 66.04892% block share.[0m
+[2021-01-27 23:12:19] - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[2021-01-27 23:12:22][36m yescrypt block 871522, job 1824, network diff 0.0002[0m
+[2021-01-27 23:12:35][36m Share 3 submitted by thread 2, job 1824.[0m
+[2021-01-27 23:12:36][01;37m [32mAccepted[01;37m, diff [32m0.000122[01;37m, 16.521 secs, A/R/B: 3/0/0.[0m
+[2021-01-27 23:12:36][01;37m Miner 2987.76 H/s, Share [36m7929.37 H/s[01;37m, Latency 648 ms.[0m
+[2021-01-27 23:12:36][01;37m Height 871522, job 1824, 49.97519% block share.[0m
+[2021-01-27 23:12:36] - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m
+[2021-01-27 23:12:44][36m Stratum difficulty set to 0.479782[0m
+[2021-01-27 23:12:44][36m yescrypt block 871523, job 1826, network diff 0.0002[0m
+[2021-01-27 23:12:52][36m Share 4 submitted by thread 2, job 1826.[0m
+[2021-01-27 23:12:53][01;37m [32mAccepted[01;37m, diff [36m7.94e-006[01;37m, 17.093 secs, A/R/B: 4/0/0.[0m
+[2021-01-27 23:12:53][01;37m Miner 3307.54 H/s, Share [33m498.74 H/s[01;37m, Latency 557 ms.[0m
+[2021-01-27 23:12:53][01;37m Height 871523, job 1826, 3.25217% block share.[0m
+[2021-01-27 23:12:53] - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m

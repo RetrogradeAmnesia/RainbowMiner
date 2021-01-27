@@ -1,0 +1,121 @@
+{
+  "enabled": true,
+  "loader": "xmrig-cuda.dll",
+  "nvml": false,
+  "astrobwt": [
+    {
+      "index": 0,
+      "threads": 32,
+      "blocks": 11,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "cn": [
+    {
+      "index": 0,
+      "threads": 16,
+      "blocks": 39,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "cn-heavy": [
+    {
+      "index": 0,
+      "threads": 8,
+      "blocks": 39,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "cn-lite": [
+    {
+      "index": 0,
+      "threads": 32,
+      "blocks": 39,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "cn-pico": [
+    {
+      "index": 0,
+      "threads": 4,
+      "blocks": 104,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "cn/2": [
+    {
+      "index": 0,
+      "threads": 4,
+      "blocks": 104,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "kawpow": [
+    {
+      "index": 0,
+      "threads": 256,
+      "blocks": 26624,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1
+    }
+  ],
+  "rx": [
+    {
+      "index": 0,
+      "threads": 32,
+      "blocks": 18,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1,
+      "dataset_host": false
+    }
+  ],
+  "rx/arq": [
+    {
+      "index": 0,
+      "threads": 32,
+      "blocks": 26,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1,
+      "dataset_host": false
+    }
+  ],
+  "rx/keva": [
+    {
+      "index": 0,
+      "threads": 32,
+      "blocks": 26,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1,
+      "dataset_host": false
+    }
+  ],
+  "rx/wow": [
+    {
+      "index": 0,
+      "threads": 32,
+      "blocks": 26,
+      "bfactor": 6,
+      "bsleep": 25,
+      "affinity": -1,
+      "dataset_host": false
+    }
+  ],
+  "cn/0": false,
+  "cn-lite/0": false
+}

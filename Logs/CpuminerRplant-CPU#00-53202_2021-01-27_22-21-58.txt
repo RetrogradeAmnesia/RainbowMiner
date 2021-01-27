@@ -1,0 +1,150 @@
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@*                                     *@@   ******  pool.rplant.xyz ******
+ @@                                         @@
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@  Newborns CPU&GPU altcoins
+ @@   .@(                             /@.   @@
+ @@   .@(                             /@.   @@    - lowdiff ports
+ @@   .@(               /             /@.   @@
+ @@   .@(       @@     ,@    @@       /@.   @@    - without registration
+ @@   .@(              ,@             /@.   @@
+ @@   .@(              ,@             /@.   @@    - 1% pool fee for all coins
+ @@   .@(              ,@             /@.   @@
+ @@   .@(           @@@@@             /@.   @@    - fair payments every hour
+ @@   .@(                             /@.   @@
+ @@   .@(        @@         @@        /@.   @@    - dedicated servers
+ @@   .@(         @@@@@@@@@@@         /@.   @@
+ @@   .@(                             /@.   @@    - Europe, Russia, Asia,
+ @@   .@(                             /@.   @@      North-America stratums
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@
+ @@                                         @@    - SSL ports
+ @@                                         @@
+ @@   .@(  @@   @@        &&&&&&&&&&&&&&    @@    Discord:
+ @@    /    ,                               @@       https://discord.gg/eHzNXmp
+ @@                                         @@    Telegram:
+ @@                                         @@       https://t.me/RPLANT_POOL
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     @&                                 &@      ******  pool.rplant.xyz ******
+     @&                                 &@
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
+
+Donations:
+BTC  1Bkg23fU9EnazGw2yyYVwQKHmjq1MRsEx4
+LTC  MSAf4idBNJQ4mfPDqAR5uycAkVRBi3AxjD
+DOGE DQxJHVR7ZGFbpnpbHrXUEzJsovJvoGz633
+
+         **********  cpuminer-rplant 5.0.11W-avx2 *********** 
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Jan  5 2021 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: SSE2   SHA
+
+Starting miner with SSE2...
+
+[2021-01-27 22:21:59] CPU affinity [!.!.!.!.][0m
+[2021-01-27 22:21:59] API listnening to 127.0.0.1:53202[0m
+[2021-01-27 22:21:59][36m Stratum connect yespowerR16.sea.mine.zpool.ca:6534[0m
+[2021-01-27 22:21:59] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 22:21:59] 4 of 8 miner threads started using 'yespowerr16' algorithm[0m
+[2021-01-27 22:22:01] Extranonce subscription enabled[0m
+[2021-01-27 22:22:01][36m Stratum connection established[0m
+[2021-01-27 22:22:16][36m New stratum difficulty 0.01[0m
+[2021-01-27 22:22:16][36m yespowerR16.sea.mine.zpool.ca:6534 yespowerr16 block 830052, job a24b, network diff 0.0026404961[0m
+[2021-01-27 22:22:16][01;37m Share 1 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:17][01;37m Share 2 submitted diff 0.000001, block 830052, job a24b[0m
+[2021-01-27 22:22:17][01;37m [01;37m[32mAccepted [01;37m1/2 (50.0%), diff 0.00000023, 0.00 H/s, 17.511 sec (351ms)[0m
+[2021-01-27 22:22:17][01;37m [01;37m[32mAccepted [01;37m2/2 (100.0%), diff 0.00000053, 0.00 H/s, 0.040 sec (312ms)[0m
+[2021-01-27 22:22:18][01;37m Share 3 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:19][01;37m Share 4 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:19][01;37m Share 5 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:19][01;37m [01;37m[32mAccepted [01;37m3/5 (60.0%), diff 0.00000017, 0.00 H/s, 1.863 sec (259ms)[0m
+[2021-01-27 22:22:19][01;37m [01;37m[32mAccepted [01;37m4/5 (80.0%), diff 0.00000043, 0.00 H/s, 0.186 sec (261ms)[0m
+[2021-01-27 22:22:19][01;37m Share 6 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:19][01;37m [01;37m[32mAccepted [01;37m5/6 (83.3%), diff 0.00000020, 0.00 H/s, 0.067 sec (260ms)[0m
+[2021-01-27 22:22:19][01;37m Share 7 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:19][01;37m [01;37m[32mAccepted [01;37m6/7 (85.7%), diff 0.00000015, 0.00 H/s, 0.228 sec (260ms)[0m
+[2021-01-27 22:22:19][01;37m [01;37m[32mAccepted [01;37m7/7 (100.0%), diff 0.00000024, 0.00 H/s, 0.036 sec (259ms)[0m
+[2021-01-27 22:22:19][01;37m Share 8 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:19][01;37m [01;37m[32mAccepted [01;37m8/8 (100.0%), diff 0.00000019, 0.00 H/s, 0.296 sec (261ms)[0m
+[2021-01-27 22:22:24][01;37m Share 9 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:24][01;37m [01;37m[32mAccepted [01;37m9/9 (100.0%), diff 0.00000033, 862.74 H/s, 4.321 sec (270ms)[0m
+[2021-01-27 22:22:24][01;37m Share 10 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:25][01;37m [01;37m[32mAccepted [01;37m10/10 (100.0%), diff 0.00000019, 862.74 H/s, 0.981 sec (266ms)[0m
+[2021-01-27 22:22:27][01;37m Share 11 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:27][01;37m [01;37m[32mAccepted [01;37m11/11 (100.0%), diff 0.00000019, 862.74 H/s, 2.021 sec (269ms)[0m
+[2021-01-27 22:22:28][01;37m Share 12 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:29][01;37m Share 13 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:29][01;37m [01;37m[32mAccepted [01;37m12/13 (92.3%), diff 0.00000019, 862.74 H/s, 1.852 sec (317ms)[0m
+[2021-01-27 22:22:29][01;37m [01;37m[32mAccepted [01;37m13/13 (100.0%), diff 0.00000034, 862.74 H/s, 0.151 sec (265ms)[0m
+[2021-01-27 22:22:29][01;37m Share 14 submitted diff 0.000012, block 830052, job a24b[0m
+[2021-01-27 22:22:29][01;37m [01;37m[32mAccepted [01;37m14/14 (100.0%), diff 0.00001178, 862.74 H/s, 0.545 sec (339ms)[0m
+[2021-01-27 22:22:29][01;37m Share 15 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:30][01;37m [01;37m[32mAccepted [01;37m15/15 (100.0%), diff 0.00000018, 862.74 H/s, 0.356 sec (375ms)[0m
+[2021-01-27 22:22:30][01;37m Share 16 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:30][01;37m Share 17 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:30][01;37m [01;37m[32mAccepted [01;37m16/17 (94.1%), diff 0.00000025, 862.74 H/s, 0.713 sec (300ms)[0m
+[2021-01-27 22:22:31][01;37m [01;37m[32mAccepted [01;37m17/17 (100.0%), diff 0.00000016, 862.74 H/s, 0.249 sec (263ms)[0m
+[2021-01-27 22:22:32][01;37m Share 18 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:32][01;37m Share 19 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:32][01;37m [01;37m[32mAccepted [01;37m18/19 (94.7%), diff 0.00000025, 862.74 H/s, 1.364 sec (261ms)[0m
+[2021-01-27 22:22:32][01;37m [01;37m[32mAccepted [01;37m19/19 (100.0%), diff 0.00000049, 862.74 H/s, 0.004 sec (267ms)[0m
+[2021-01-27 22:22:33][01;37m Share 20 submitted diff 0.000003, block 830052, job a24b[0m
+[2021-01-27 22:22:33][01;37m [01;37m[32mAccepted [01;37m20/20 (100.0%), diff 0.00000275, 862.74 H/s, 0.870 sec (269ms)[0m
+[2021-01-27 22:22:33][01;37m Share 21 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:33][01;37m [01;37m[32mAccepted [01;37m21/21 (100.0%), diff 0.00000048, 862.74 H/s, 0.512 sec (261ms)[0m
+[2021-01-27 22:22:33][01;37m Share 22 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:34][01;37m [01;37m[32mAccepted [01;37m22/22 (100.0%), diff 0.00000033, 862.74 H/s, 0.342 sec (270ms)[0m
+[2021-01-27 22:22:34][01;37m Share 23 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:34][01;37m Share 24 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:35][01;37m Share 25 submitted diff 0.000000, block 830052, job a24b[0m
+[2021-01-27 22:22:35][01;37m [01;37m[32mAccepted [01;37m23/25 (92.0%), diff 0.00000027, 862.74 H/s, 0.980 sec (263ms)[0m
+[2021-01-27 22:22:35][01;37m [01;37m[32mAccepted [01;37m24/25 (96.0%), diff 0.00000037, 862.74 H/s, 0.012 sec (262ms)[0m
+[2021-01-27 22:22:35][01;37m Share 26 submitted diff 0.000002, block 830052, job a24b[0m
+[2021-01-27 22:22:35][01;37m [01;37m[32mAccepted [01;37m25/26 (96.2%), diff 0.00000018, 862.74 H/s, 0.101 sec (293ms)[0m
+[2021-01-27 22:22:35][01;37m [01;37m[32mAccepted [01;37m26/26 (100.0%), diff 0.00000170, 862.74 H/s, 0.234 sec (270ms)[0m
+[2021-01-27 22:22:35][01;37m Share 27 submitted diff 0.000001, block 830052, job a24b[0m
+[2021-01-27 22:22:35][01;37m Share 28 submitted diff 0.000001, block 830052, job a24b[0m
+[2021-01-27 22:22:35][01;37m [01;37m[32mAccepted [01;37m27/28 (96.4%), diff 0.00000085, 862.74 H/s, 0.284 sec (279ms)[0m
+[2021-01-27 22:22:36][01;37m [01;37m[32mAccepted [01;37m28/28 (100.0%), diff 0.00000075, 862.74 H/s, 0.172 sec (259ms)[0m
+[2021-01-27 22:22:36][01;37m Share 29 submitted diff 0.000001, block 830052, job a24b[0m
+[2021-01-27 22:22:36][01;37m [01;37m[32mAccepted [01;37m29/29 (100.0%), diff 0.00000052, 862.74 H/s, 0.291 sec (266ms)[0m
+[2021-01-27 22:22:37][36m New stratum difficulty 0.064[0m
+[2021-01-27 22:22:39][01;37m Share 30 submitted diff 0.000008, block 830052, job a24c[0m
+[2021-01-27 22:22:39][01;37m [01;37m[32mAccepted [01;37m30/30 (100.0%), diff 0.00000815, 828.86 H/s, 3.661 sec (267ms)[0m
+[2021-01-27 22:22:41][36m yespowerR16.sea.mine.zpool.ca:6534 yespowerr16 block 830053, job a24e, network diff 0.0032037155[0m
+[2021-01-27 22:22:41][01;37m Share 31 submitted diff 0.000002, block 830053, job a24e[0m
+[2021-01-27 22:22:41][01;37m [01;37m[32mAccepted [01;37m31/31 (100.0%), diff 0.00000204, 822.01 H/s, 1.810 sec (277ms)[0m
+[2021-01-27 22:22:46][01;37m Share 32 submitted diff 0.000001, block 830053, job a24e[0m
+[2021-01-27 22:22:47][01;37m [01;37m[32mAccepted [01;37m32/32 (100.0%), diff 0.00000122, 822.01 H/s, 5.231 sec (337ms)[0m
+[2021-01-27 22:22:57][01;37m Share 33 submitted diff 0.000001, block 830053, job a24e[0m
+[2021-01-27 22:22:57][01;37m [01;37m[32mAccepted [01;37m33/33 (100.0%), diff 0.00000137, 822.01 H/s, 10.326 sec (271ms)[0m
+[2021-01-27 22:23:01][01;37m Share 34 submitted diff 0.000001, block 830053, job a24f[0m
+[2021-01-27 22:23:01][01;37m [01;37m[32mAccepted [01;37m34/34 (100.0%), diff 0.00000135, 719.12 H/s, 3.944 sec (266ms)[0m
+[2021-01-27 22:23:03][01;37m Share 35 submitted diff 0.000001, block 830053, job a24f[0m
+[2021-01-27 22:23:03][01;37m [01;37m[32mAccepted [01;37m35/35 (100.0%), diff 0.00000106, 719.12 H/s, 2.243 sec (260ms)[0m
+[2021-01-27 22:23:05][01;37m Share 36 submitted diff 0.000006, block 830053, job a24f[0m
+[2021-01-27 22:23:05][01;37m [01;37m[32mAccepted [01;37m36/36 (100.0%), diff 0.00000611, 719.12 H/s, 1.959 sec (261ms)[0m
+[2021-01-27 22:23:06][01;37m Share 37 submitted diff 0.000001, block 830053, job a24f[0m
+[2021-01-27 22:23:06][01;37m [01;37m[32mAccepted [01;37m37/37 (100.0%), diff 0.00000130, 719.12 H/s, 1.365 sec (260ms)[0m
+[2021-01-27 22:23:06][01;37m Share 38 submitted diff 0.000002, block 830053, job a24f[0m
+[2021-01-27 22:23:07][01;37m [01;37m[32mAccepted [01;37m38/38 (100.0%), diff 0.00000162, 719.12 H/s, 0.298 sec (268ms)[0m
+[2021-01-27 22:23:07][01;37m Share 39 submitted diff 0.000004, block 830053, job a24f[0m
+[2021-01-27 22:23:07][01;37m [01;37m[32mAccepted [01;37m39/39 (100.0%), diff 0.00000369, 719.12 H/s, 0.513 sec (312ms)[0m
+[2021-01-27 22:23:07][01;37m Share 40 submitted diff 0.000004, block 830053, job a24f[0m
+[2021-01-27 22:23:08][01;37m [01;37m[32mAccepted [01;37m40/40 (100.0%), diff 0.00000425, 719.12 H/s, 0.454 sec (260ms)[0m
+[2021-01-27 22:23:14][01;37m Share 41 submitted diff 0.000002, block 830053, job a24f[0m
+[2021-01-27 22:23:15][01;37m [01;37m[32mAccepted [01;37m41/41 (100.0%), diff 0.00000155, 719.12 H/s, 7.122 sec (261ms)[0m
+[2021-01-27 22:23:18][01;37m Share 42 submitted diff 0.000021, block 830053, job a24f[0m
+[2021-01-27 22:23:18][01;37m [01;37m[32mAccepted [01;37m42/42 (100.0%), diff 0.00002057, 719.12 H/s, 3.295 sec (263ms)[0m
+[2021-01-27 22:23:31][01;37m Share 43 submitted diff 0.000001, block 830053, job a250[0m
+[2021-01-27 22:23:31][01;37m [01;37m[32mAccepted [01;37m43/43 (100.0%), diff 0.00000113, 724.45 H/s, 12.926 sec (266ms)[0m
+[2021-01-27 22:23:32][01;37m Share 44 submitted diff 0.000002, block 830053, job a250[0m
+[2021-01-27 22:23:32][01;37m [01;37m[32mAccepted [01;37m44/44 (100.0%), diff 0.00000216, 724.45 H/s, 1.070 sec (261ms)[0m
+[2021-01-27 22:23:34][01;37m Share 45 submitted diff 0.000003, block 830053, job a250[0m
+[2021-01-27 22:23:34][01;37m [01;37m[32mAccepted [01;37m45/45 (100.0%), diff 0.00000262, 724.45 H/s, 1.789 sec (262ms)[0m
+[2021-01-27 22:23:37][36m New stratum difficulty 0.152[0m
+[2021-01-27 22:23:37][36m yespowerR16.sea.mine.zpool.ca:6534 yespowerr16 block 830054, job a252, network diff 0.0037882694[0m
+[2021-01-27 22:23:40][36m yespowerR16.sea.mine.zpool.ca:6534 yespowerr16 block 830055, job a253, network diff 0.0039815863[0m
+[2021-01-27 22:23:41][01;37m Share 46 submitted diff 0.000005, block 830055, job a254[0m
+[2021-01-27 22:23:41][01;37m [01;37m[32mAccepted [01;37m46/46 (100.0%), diff 0.00000519, 629.39 H/s, 7.456 sec (263ms)[0m

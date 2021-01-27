@@ -1,0 +1,79 @@
+20210127 22:33:08 T-Rex NVIDIA GPU miner v0.19.9  -  [CUDA v11.10 | Windows]
+20210127 22:33:08 r.4fb1aa6877f6
+20210127 22:33:08 
+20210127 22:33:08 NVIDIA Driver v460.89
+20210127 22:33:08 CUDA devices available: 1
+20210127 22:33:08 
+20210127 22:33:08 WARN: DevFee 1% (x16r)
+20210127 22:33:08 
+20210127 22:33:08 URL : stratum+tcp://x16r.mine.zergpool.com:3636
+20210127 22:33:08 USER: 1NV7obQpcLyERvmmv6WETmGWvVcZax28fo
+20210127 22:33:08 PASS: DesktopPC,c=BTC,mc=XRD
+20210127 22:33:08 WRK : DesktopPC
+20210127 22:33:08 
+20210127 22:33:08 WARN: Built-in watchdog has been disabled!
+20210127 22:33:08 Starting on: x16r.mine.zergpool.com:3636
+20210127 22:33:08 ApiServer: HTTP server started on 127.0.0.1:31601
+20210127 22:33:08 -------------------------------------------------------
+20210127 22:33:08 For control navigate to: http://172.18.160.1:31601/trex
+20210127 22:33:08 -------------------------------------------------------
+20210127 22:33:08 WARN: GPU #0(000100): ASUS GeForce GTX 970, intensity set to 20
+20210127 22:33:10 Authorizing...
+20210127 22:33:10 Authorized successfully.
+20210127 22:33:10 WARN: New difficulty: 18 (0.07031)
+20210127 22:33:10 x16r block 1039871, diff 21.721
+20210127 22:33:10 Hash order 9C7BDD92D2EB8D40
+20210127 22:33:10 SmdFugCubHamShbShbSmdGroShbGroWrlHamShvShbKckBlk
+20210127 22:34:07 x16r block 1039872, diff 21.189
+20210127 22:34:07 Hash order B81C0EFA2D806AF4
+20210127 22:34:07 HamShvBmwFugBlkWrlShaEchGroShbShvBlkLufEchShaKck
+20210127 22:34:09 
+20210127 22:34:09 Mining at x16r.mine.zergpool.com:3636
+20210127 22:34:09 GPU #0: ASUS GTX 970 - 9069.12 kH/s, [T:87C, P:119W, F:76%, E:77kH/W]
+20210127 22:34:09 Shares/min: 0
+20210127 22:34:09 Uptime: 1 min | Algo: x16r | T-Rex v0.19.9
+20210127 22:34:09 
+20210127 22:34:25 x16r block 1039873, diff 21.543
+20210127 22:34:25 Hash order 11923FED7A9F77EB
+20210127 22:34:25 BmwBmwSmdGroJh5ShaWrlShbCubEchSmdShaCubCubWrlHam
+20210127 22:34:30 x16r block 1039874, diff 22.146
+20210127 22:34:30 Hash order 7CD8257495EFC0AB
+20210127 22:34:30 CubFugShbShvGroSkeCubKckSmdSkeWrlShaFugBlkEchHam
+20210127 22:34:39 
+20210127 22:34:39 Mining at x16r.mine.zergpool.com:3636
+20210127 22:34:39 GPU #0: ASUS GTX 970 - 9126.64 kH/s, [T:88C, P:118W, F:83%, E:78kH/W]
+20210127 22:34:39 Shares/min: 0
+20210127 22:34:39 Uptime: 1 min 30 secs | Algo: x16r | T-Rex v0.19.9
+20210127 22:34:39 
+20210127 22:35:09 
+20210127 22:35:09 Mining at x16r.mine.zergpool.com:3636
+20210127 22:35:09 GPU #0: ASUS GTX 970 - 8731.14 kH/s, [T:89C, P:119W, F:86%, E:73kH/W]
+20210127 22:35:09 Shares/min: 0
+20210127 22:35:09 Uptime: 2 mins | Algo: x16r | T-Rex v0.19.9
+20210127 22:35:09 
+20210127 22:35:18 [ OK ] 1/1 - 8801.10 kH/s, 577ms ... GPU #0
+20210127 22:35:33 [ OK ] 2/2 - 8874.27 kH/s, 682ms ... GPU #0
+20210127 22:35:39 
+20210127 22:35:39 Mining at x16r.mine.zergpool.com:3636
+20210127 22:35:39 GPU #0: ASUS GTX 970 - 8875.68 kH/s, [T:89C, P:120W, F:89%, E:75kH/W], 2/2 R:0%
+20210127 22:35:39 Shares/min: 2 (Avr. 0.827)
+20210127 22:35:39 Uptime: 2 mins 30 secs | Algo: x16r | T-Rex v0.19.9
+20210127 22:35:39 
+20210127 22:35:44 WARN: New difficulty: 8 (0.03125)
+20210127 22:35:50 WARN: New difficulty: 4 (0.01563)
+20210127 22:35:50 x16r block 1039875, diff 21.782
+20210127 22:35:50 Hash order 8C50B729A9AE9AE2
+20210127 22:35:50 ShvFugSkeBlkHamCubGroSmdEchSmdEchWrlSmdEchWrlGro
+20210127 22:35:54 WARN: New difficulty: 2 (0.00781)
+20210127 22:35:54 x16r block 1039876, diff 22.567
+20210127 22:35:54 Hash order 80845E1BC2344228
+20210127 22:35:54 ShvBlkShvKckSkeWrlBmwHamFugGroJh5KckKckGroGroShv
+20210127 22:36:01 [ OK ] 3/3 - 8288.94 kH/s, 1664ms ... GPU #0
+20210127 22:36:01 [ OK ] 4/4 - 8288.94 kH/s, 1194ms ... GPU #0
+20210127 22:36:03 [ OK ] 5/5 - 8370.51 kH/s, 693ms ... GPU #0
+20210127 22:36:04 [ OK ] 6/6 - 8412.65 kH/s, 840ms ... GPU #0
+20210127 22:36:05 [ OK ] 7/7 - 8447.74 kH/s, 762ms ... GPU #0
+20210127 22:36:07 WARN: Miner is going to shutdown...
+20210127 22:36:07 Main loop finished. Cleaning up resources...
+20210127 22:36:07 ApiServer: stopped listening on 127.0.0.1:31601
+20210127 22:36:09 T-Rex finished.

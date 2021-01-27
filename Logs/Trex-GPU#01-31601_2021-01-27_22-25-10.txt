@@ -1,0 +1,32 @@
+20210127 22:25:15 T-Rex NVIDIA GPU miner v0.19.9  -  [CUDA v11.10 | Windows]
+20210127 22:25:15 r.4fb1aa6877f6
+20210127 22:25:15 
+20210127 22:25:15 NVIDIA Driver v460.89
+20210127 22:25:15 CUDA devices available: 1
+20210127 22:25:15 
+20210127 22:25:15 WARN: DevFee 1% (etchash)
+20210127 22:25:15 
+20210127 22:25:15 URL : stratum+tcp://etchash.mine.zergpool.com:9997
+20210127 22:25:15 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T
+20210127 22:25:15 PASS: DesktopPC,c=BTC,mc=ETC,m=solo
+20210127 22:25:15 WRK : DesktopPC
+20210127 22:25:15 
+20210127 22:25:15 WARN: Built-in watchdog has been disabled!
+20210127 22:25:15 Starting on: etchash.mine.zergpool.com:9997
+20210127 22:25:15 ApiServer: HTTP server started on 127.0.0.1:31601
+20210127 22:25:15 -------------------------------------------------------
+20210127 22:25:15 For control navigate to: http://172.18.160.1:31601/trex
+20210127 22:25:15 -------------------------------------------------------
+20210127 22:25:15 WARN: GPU #0(000100): ASUS GeForce GTX 970, intensity set to 22
+20210127 22:25:15 Using protocol: stratum1.
+20210127 22:25:15 Authorizing...
+20210127 22:25:16 Authorized successfully.
+20210127 22:25:17 etchash epoch: 201, block: 12068595, diff: 2.00 G
+20210127 22:25:17 etchash epoch: 201, block: 12068595, diff: 2.00 G
+20210127 22:25:19 GPU #0: generating DAG 2.57 GB for epoch 201(402) ...
+20210127 22:25:28 GPU #0: DAG generated [crc: a97eeae8, time: 10121 ms], memory left: 748.46 MB
+20210127 22:25:31 TREX: Can't find nonce with device [ID=0, GPU #0], cuda exception in [Ethash::benchmark_kernel, 58], the launch timed out and was terminated, try to reduce OC to stabilize GPU state
+20210127 22:25:31 WARN: Miner is going to shutdown...
+20210127 22:25:31 Main loop finished. Cleaning up resources...
+20210127 22:25:31 ApiServer: stopped listening on 127.0.0.1:31601
+20210127 22:25:33 T-Rex finished.

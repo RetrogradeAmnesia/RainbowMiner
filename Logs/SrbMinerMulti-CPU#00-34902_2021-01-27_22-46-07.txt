@@ -1,0 +1,67 @@
+
+CPU0 : Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz [L3:   8192 KB][L2:  1024 KB][L1:  128 KB][PU:   8]
+
+======================================================================
+SRBMiner-MULTI 0.6.3
+
+Press 's' to display stats
+Press 'h' to display hashrate
+Press 'p' to switch to the next pool
+Press 'o' to switch to the previous pool
+======================================================================
+
+Algorithm/s         : yespoweric [0.85% fee]
+Gpu mining          : disabled
+Cpu mining          : enabled
+Huge-pages          : enabled
+HW-Aes              : available
+
+[2021-01-27 22:46:11] 4 CPU core/s - 8 thread/s detected
+[2021-01-27 22:46:11] Using 4 thread/s for CPU mining
+[2021-01-27 22:46:13] Connected to yespoweric.sea.mine.zpool.ca:6243 [yespoweric]
+[2021-01-27 22:46:13] Difficulty 0.010000 [yespoweric][0]
+[2021-01-27 22:46:13] Job received [5cee] block height 117709 [yespoweric][0]
+[2021-01-27 22:46:14] Job received [5cee] block height 117709 [yespoweric][0]
+[2021-01-27 22:46:14] CPU result accepted      [  285ms] [yespoweric][0]
+[2021-01-27 22:46:15] CPU result accepted      [  281ms] [yespoweric][0]
+[2021-01-27 22:46:16] Job received [5cef] block height 117709 [yespoweric][0]
+[2021-01-27 22:46:16] CPU result accepted      [  264ms] [yespoweric][0]
+[2021-01-27 22:46:16] CPU result accepted      [  268ms] [yespoweric][0]
+[2021-01-27 22:46:17] CPU result accepted      [  278ms] [yespoweric][0]
+[2021-01-27 22:46:17] CPU result accepted      [  270ms] [yespoweric][0]
+[2021-01-27 22:46:18] CPU result accepted      [  272ms] [yespoweric][0]
+[2021-01-27 22:46:21] CPU result accepted      [  274ms] [yespoweric][0]
+[2021-01-27 22:46:21] CPU result accepted      [  271ms] [yespoweric][0]
+[2021-01-27 22:46:22] CPU result accepted      [  265ms] [yespoweric][0]
+[2021-01-27 22:46:22] CPU result accepted      [  268ms] [yespoweric][0]
+[2021-01-27 22:46:23] CPU result accepted      [  296ms] [yespoweric][0]
+[2021-01-27 22:46:23] CPU result accepted      [  263ms] [yespoweric][0]
+[2021-01-27 22:46:23] CPU result accepted      [  286ms] [yespoweric][0]
+[2021-01-27 22:46:24] CPU result accepted      [  282ms] [yespoweric][0]
+[2021-01-27 22:46:25] CPU result accepted      [  275ms] [yespoweric][0]
+[2021-01-27 22:46:26] CPU result accepted      [  290ms] [yespoweric][0]
+[2021-01-27 22:46:27] CPU result accepted      [  279ms] [yespoweric][0]
+[2021-01-27 22:46:27] CPU result accepted      [  275ms] [yespoweric][0]
+[2021-01-27 22:46:28] CPU result accepted      [  264ms] [yespoweric][0]
+[2021-01-27 22:46:28] CPU result accepted      [  284ms] [yespoweric][0]
+[2021-01-27 22:46:30] CPU result accepted      [  286ms] [yespoweric][0]
+[2021-01-27 22:46:31] CPU result accepted      [  270ms] [yespoweric][0]
+[2021-01-27 22:46:31] CPU result accepted      [  275ms] [yespoweric][0]
+[2021-01-27 22:46:32] CPU result accepted      [  277ms] [yespoweric][0]
+[2021-01-27 22:46:32] CPU result accepted      [  272ms] [yespoweric][0]
+[2021-01-27 22:46:35] CPU result accepted      [  282ms] [yespoweric][0]
+[2021-01-27 22:46:36] CPU result accepted      [  306ms] [yespoweric][0]
+[2021-01-27 22:46:36] CPU result accepted      [  277ms] [yespoweric][0]
+[2021-01-27 22:46:36] CPU result accepted      [  268ms] [yespoweric][0]
+[2021-01-27 22:46:37] Difficulty 0.058000 [yespoweric][0]
+[2021-01-27 22:46:37] Job received [5cf0] block height 117709 [yespoweric][0]
+[2021-01-27 22:46:37] CPU result accepted      [  274ms] [yespoweric][0]
+[2021-01-27 22:46:42] CPU result accepted      [  283ms] [yespoweric][0]
+[2021-01-27 22:46:46] CPU result accepted      [  274ms] [yespoweric][0]
+[2021-01-27 22:46:48] CPU result accepted      [  284ms] [yespoweric][0]
+[2021-01-27 22:46:48] CPU result accepted      [  263ms] [yespoweric][0]
+[2021-01-27 22:46:54] Job received [5cf2] block height 117710 [yespoweric][0]
+[2021-01-27 22:46:58] Job received [5cf3] block height 117710 [yespoweric][0]
+[2021-01-27 22:47:04] CPU result accepted      [  283ms] [yespoweric][0]
+[2021-01-27 22:47:07] CPU result accepted      [  284ms] [yespoweric][0]
+[2021-01-27 22:47:12] CPU result accepted      

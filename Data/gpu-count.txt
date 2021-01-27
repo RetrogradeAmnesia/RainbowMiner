@@ -1,0 +1,3 @@
+
+01:00.0 [7mVGA compatible controller[0m: NVIDIA Corporation GM204 [GeForce GTX 970] (rev a1)
+

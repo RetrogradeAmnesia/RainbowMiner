@@ -1,0 +1,89 @@
+20210127 22:28:49 T-Rex NVIDIA GPU miner v0.19.9  -  [CUDA v11.10 | Windows]
+20210127 22:28:49 r.4fb1aa6877f6
+20210127 22:28:49 
+20210127 22:28:49 NVIDIA Driver v460.89
+20210127 22:28:49 CUDA devices available: 1
+20210127 22:28:49 
+20210127 22:28:49 WARN: DevFee 1% (x16rv2)
+20210127 22:28:49 
+20210127 22:28:49 === MAIN POOL === | back to main in 10 mins |
+20210127 22:28:49 URL : stratum+tcp://x16rv2.in.nicehash.com:3379
+20210127 22:28:49 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T.DesktopPC
+20210127 22:28:49 PASS: x
+20210127 22:28:49 WRK : DesktopPC
+20210127 22:28:49 
+20210127 22:28:49 URL : stratum+tcp://x16rv2.usa.nicehash.com:3379
+20210127 22:28:49 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T.DesktopPC
+20210127 22:28:49 PASS: x
+20210127 22:28:49 WRK : DesktopPC
+20210127 22:28:49 
+20210127 22:28:49 URL : stratum+tcp://x16rv2.br.nicehash.com:3379
+20210127 22:28:49 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T.DesktopPC
+20210127 22:28:49 PASS: x
+20210127 22:28:49 WRK : DesktopPC
+20210127 22:28:49 
+20210127 22:28:49 URL : stratum+tcp://x16rv2.hk.nicehash.com:3379
+20210127 22:28:49 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T.DesktopPC
+20210127 22:28:49 PASS: x
+20210127 22:28:49 WRK : DesktopPC
+20210127 22:28:49 
+20210127 22:28:49 URL : stratum+tcp://x16rv2.eu.nicehash.com:3379
+20210127 22:28:49 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T.DesktopPC
+20210127 22:28:49 PASS: x
+20210127 22:28:49 WRK : DesktopPC
+20210127 22:28:49 
+20210127 22:28:49 URL : stratum+tcp://x16rv2.jp.nicehash.com:3379
+20210127 22:28:49 USER: 359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T.DesktopPC
+20210127 22:28:49 PASS: x
+20210127 22:28:49 WRK : DesktopPC
+20210127 22:28:49 
+20210127 22:28:49 WARN: Built-in watchdog has been disabled!
+20210127 22:28:49 Starting on: x16rv2.in.nicehash.com:3379
+20210127 22:28:49 ApiServer: HTTP server started on 127.0.0.1:31601
+20210127 22:28:49 -------------------------------------------------------
+20210127 22:28:49 For control navigate to: http://172.18.160.1:31601/trex
+20210127 22:28:49 -------------------------------------------------------
+20210127 22:28:49 WARN: GPU #0(000100): ASUS GeForce GTX 970, intensity set to 20
+20210127 22:28:50 Authorizing...
+20210127 22:28:50 Authorized successfully.
+20210127 22:28:50 WARN: New difficulty: 40.2849 (0.15736)
+20210127 22:28:50 x16rv2 block 583866, diff 161.857
+20210127 22:28:50 Hash order F5E640637B837534
+20210127 22:28:50 TigShaSkeWrlTigLufTigKckBlkTigLufJh5CubHamShvJh5CubSkeJh5TigKck
+20210127 22:29:50 
+20210127 22:29:50 Mining at x16rv2.in.nicehash.com:3379
+20210127 22:29:50 GPU #0: ASUS GTX 970 - 9040.22 kH/s, [T:83C, P:113W, F:61%, E:81kH/W]
+20210127 22:29:50 Shares/min: 0
+20210127 22:29:50 Uptime: 1 min | Algo: x16rv2 | T-Rex v0.19.9
+20210127 22:29:50 
+20210127 22:30:20 
+20210127 22:30:20 Mining at x16rv2.in.nicehash.com:3379
+20210127 22:30:20 GPU #0: ASUS GTX 970 - 9038.27 kH/s, [T:86C, P:114W, F:72%, E:79kH/W]
+20210127 22:30:20 Shares/min: 0
+20210127 22:30:20 Uptime: 1 min 31 secs | Algo: x16rv2 | T-Rex v0.19.9
+20210127 22:30:20 
+20210127 22:30:50 
+20210127 22:30:50 Mining at x16rv2.in.nicehash.com:3379
+20210127 22:30:50 GPU #0: ASUS GTX 970 - 8985.73 kH/s, [T:87C, P:115W, F:78%, E:78kH/W]
+20210127 22:30:50 Shares/min: 0
+20210127 22:30:50 Uptime: 2 mins 1 sec | Algo: x16rv2 | T-Rex v0.19.9
+20210127 22:30:50 
+20210127 22:31:03 WARN: New difficulty: 20.1425 (0.07868)
+20210127 22:31:14 [ OK ] 1/1 - 8999.51 kH/s, 210ms ... GPU #0
+20210127 22:31:20 
+20210127 22:31:20 Mining at x16rv2.in.nicehash.com:3379
+20210127 22:31:20 GPU #0: ASUS GTX 970 - 8983.76 kH/s, [T:88C, P:114W, F:82%, E:79kH/W], 1/1 R:0%
+20210127 22:31:20 Shares/min: 1 (Avr. 0.414)
+20210127 22:31:20 Uptime: 2 mins 31 secs | Algo: x16rv2 | T-Rex v0.19.9
+20210127 22:31:20 
+20210127 22:31:26 [ OK ] 2/2 - 8948.05 kH/s, 200ms ... GPU #0
+20210127 22:31:50 
+20210127 22:31:50 Mining at x16rv2.in.nicehash.com:3379
+20210127 22:31:50 GPU #0: ASUS GTX 970 - 9001.26 kH/s, [T:88C, P:115W, F:84%, E:79kH/W], 2/2 R:0%
+20210127 22:31:50 Shares/min: 2 (Avr. 0.768)
+20210127 22:31:50 Uptime: 3 mins 1 sec | Algo: x16rv2 | T-Rex v0.19.9
+20210127 22:31:50 
+20210127 22:31:51 WARN: Miner is going to shutdown...
+20210127 22:31:51 Main loop finished. Cleaning up resources...
+20210127 22:31:51 ApiServer: stopped listening on 127.0.0.1:31601
+20210127 22:31:53 T-Rex finished.

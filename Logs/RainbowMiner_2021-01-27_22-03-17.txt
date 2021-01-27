@@ -1,0 +1,84 @@
+**********************
+PowerShell transcript start
+Start time: 20210127220317
+Username: DESKTOP-KG848PC\rhysm
+RunAs User: DESKTOP-KG848PC\rhysm
+Configuration Name: 
+Machine: DESKTOP-KG848PC (Microsoft Windows NT 10.0.19041.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -executionpolicy bypass -windowstyle maximized -command & {.\rainbowminer.ps1 -configfile .\Config\config.txt; exit $lastexitcode}
+Process ID: 22472
+PSVersion: 7.1.1
+PSEdition: Core
+GitCommitId: 7.1.1
+OS: Microsoft Windows 10.0.19041
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.1
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is .\Logs\RainbowMiner_2021-01-27_22-03-17.txt
+__________        .__      ___.                   _____  .__
+\______   \_____  |__| ____\_ |__   ______  _  __/     \ |__| ____   ___________
+ |       _/\__  \ |  |/    \| __ \ /  _ \ \/ \/ /  \ /  \|  |/    \_/ __ \_  __ \
+ |    |   \ / __ \|  |   |  \ \_\ (  <_> )     /    Y    \  |   |  \  ___/|  | \/
+ |____|_  /(____  /__|___|  /___  /\____/ \/\_/\____|__  /__|___|  /\___  >__|
+        \/      \/        \/    \/                     \/        \/     \/
+
+Starting v4.6.7.6! Please wait..
+
+Detecting devices ..
+WARNING: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll has wrong version 441.41 vs. 460.89
+Initialize configuration ..
+Read configuration ..
+
+*** RainbowMiner Configuration ***
+
+
+Hints (read them all! It will make entering data much easier):
+
+- press Return to accept the defaults
+- fields marked with * are mandatory
+- use comma "," to separate list entries
+- add new entries to a list, by adding a "+" in front of your input
+- remove entries from a list, by adding a "-" in front of your input
+- enter "list" or "help" to show a list of all valid entries
+- enter "back" or "<" to repeat the last input
+- enter "delete" to clear a non-mandatory entry
+- enter "save" or "done" to end config and save changes
+- enter "exit" or "cancel" to abort without any changes to the configuration
+
+
+(1) Basic Setup
+
+
+Every pool (except the MiningPoolHub) wants the miner to send a worker's name. You can change the name later. Please enter only letters and numbers.
+
+
+Let's start with the local setup of this machine's API.
+
+RainbowMiner can be monitored using your webbrowser via API:
+- on this machine: http://localhost:4000
+- on most devices in the network: http://DESKTOP-KG848PC:4000
+- on any other device in the network: http://192.168.8.101:4000
+
+
+Please lookup your BTC wallet address. It is easy: copy it to your clipboard and then press the right mouse key in this window to paste
+
+
+If you plan to mine on Nicehash, you need to register an account with them, to get a NiceHash mining wallet address (please read the Pools section of our readme!).
+If you do not want to use Nicehash as a pool, leave this empty (or enter "clear" to make it empty) and press return
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> $global:?
+False
+**********************
+PowerShell transcript end
+End time: 20210127220515
+**********************

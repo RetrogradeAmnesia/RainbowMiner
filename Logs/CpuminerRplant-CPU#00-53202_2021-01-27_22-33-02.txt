@@ -1,0 +1,53 @@
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@*                                     *@@   ******  pool.rplant.xyz ******
+ @@                                         @@
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@  Newborns CPU&GPU altcoins
+ @@   .@(                             /@.   @@
+ @@   .@(                             /@.   @@    - lowdiff ports
+ @@   .@(               /             /@.   @@
+ @@   .@(       @@     ,@    @@       /@.   @@    - without registration
+ @@   .@(              ,@             /@.   @@
+ @@   .@(              ,@             /@.   @@    - 1% pool fee for all coins
+ @@   .@(              ,@             /@.   @@
+ @@   .@(           @@@@@             /@.   @@    - fair payments every hour
+ @@   .@(                             /@.   @@
+ @@   .@(        @@         @@        /@.   @@    - dedicated servers
+ @@   .@(         @@@@@@@@@@@         /@.   @@
+ @@   .@(                             /@.   @@    - Europe, Russia, Asia,
+ @@   .@(                             /@.   @@      North-America stratums
+ @@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@
+ @@                                         @@    - SSL ports
+ @@                                         @@
+ @@   .@(  @@   @@        &&&&&&&&&&&&&&    @@    Discord:
+ @@    /    ,                               @@       https://discord.gg/eHzNXmp
+ @@                                         @@    Telegram:
+ @@                                         @@       https://t.me/RPLANT_POOL
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     @&                                 &@      ******  pool.rplant.xyz ******
+     @&                                 &@
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
+
+Donations:
+BTC  1Bkg23fU9EnazGw2yyYVwQKHmjq1MRsEx4
+LTC  MSAf4idBNJQ4mfPDqAR5uycAkVRBi3AxjD
+DOGE DQxJHVR7ZGFbpnpbHrXUEzJsovJvoGz633
+
+         **********  cpuminer-rplant 5.0.11W-avx2 *********** 
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Jan  5 2021 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: AVX512
+
+Starting miner with AVX2...
+
+[2021-01-27 22:33:03] CPU affinity [!.!.!.!.][0m
+[2021-01-27 22:33:03] API listnening to 127.0.0.1:53202[0m
+[2021-01-27 22:33:03][36m Stratum connect argon2d4096.mine.zergpool.com:4240[0m
+[2021-01-27 22:33:03] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 22:33:03] 4 of 8 miner threads started using 'argon2d4096' algorithm[0m
+[2021-01-27 22:33:06] Extranonce subscription enabled[0m
+[2021-01-27 22:33:06][36m Stratum connection established[0m
+[2021-01-27 22:33:06][36m New stratum difficulty 4[0m
+[2021-01-27 22:33:06][36m argon2d4096.mine.zergpool.com:4240 argon2d4096 block 3194008, job 1973, network diff 0.22096607[0m

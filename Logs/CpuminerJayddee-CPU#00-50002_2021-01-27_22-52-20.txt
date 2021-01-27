@@ -1,0 +1,43 @@
+
+         **********  cpuminer-opt 3.15.5  *********** 
+     A CPU miner with multi algo support and optimized for CPUs
+     with AVX512, SHA and VAES extensions by JayDDee.
+     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+
+[2021-01-27 22:52:21][01;37m Yespower parameters: N= 2048, R= 32[0m
+CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+SW built on Dec 21 2020 with GCC 9.3.0
+CPU features:  AVX2    AES
+SW features:   AVX2    AES
+Algo features: SSE2   SHA
+
+Starting miner with SSE2...
+
+[2021-01-27 22:52:21] CPU affinity [!.!.!.!.][0m
+[2021-01-27 22:52:21] API listnening to 127.0.0.1:50002[0m
+[2021-01-27 22:52:21][36m Stratum connect yespower.mine.zergpool.com:6533[0m
+[2021-01-27 22:52:21] Miner thread priority 0 (nice 19)[0m
+[2021-01-27 22:52:21] 4 of 8 miner threads started using 'yespower' algorithm[0m
+[2021-01-27 22:52:23] Stratum extranonce1= 81325b62, extranonce2 size= 4[0m
+[2021-01-27 22:52:24] Extranonce subscription enabled[0m
+[2021-01-27 22:52:24][36m Stratum connection established[0m
+[2021-01-27 22:52:24][36m New Stratum Diff 0.8, Block 245574, Job 3c00[0m
+                      Diff: Net 0.023946, Stratum 0.8, Target 1.2207e-005[0m
+[2021-01-27 22:52:26][36m New Work: Block 245574, Net diff 0.023946, Job 3c04[0m
+[2021-01-27 22:52:47][01;37m 1 Submitted Diff 1.4659e-005, Block 245574, Job 3c04[0m
+[2021-01-27 22:52:47][01;37m 1 [01;37m[32mAccepted 1 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 25.433 sec (715ms)[0m
+[2021-01-27 22:53:30][36m New Work: Block 245574, Net diff 0.023946, Job 3c0b[0m
+[2021-01-27 22:53:55][01;37m 2 Submitted Diff 1.4497e-005, Block 245574, Job 3c0b[0m
+[2021-01-27 22:53:55][01;37m 2 [01;37m[32mAccepted 2 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 68.215 sec (489ms)[0m
+[2021-01-27 22:54:12][01;37m 3 Submitted Diff 1.6736e-005, Block 245574, Job 3c0b[0m
+[2021-01-27 22:54:13][01;37m 3 [01;37m[32mAccepted 3 [01;37mS0 [01;37mR0 [01;37mB0[01;37m, 17.611 sec (946ms)[0m
+[2021-01-27 22:54:33][36m yespower: yespower.mine.zergpool.com:6533[0m
+                     [01;37m Periodic Report     2m11s        2m11s[0m
+                      Share rate        1.36/min     1.36/min[0m
+                      Hash rate       1191.98h/s   1200.66h/s   (659.57h/s)[0m
+                      Submitted             3            3[0m
+                      Accepted              3            3[0m
+                      Hi/Lo Share Diff  1.6736e-005 /  1.4497e-005[0m
+[2021-01-27 22:54:33][36m New Stratum Diff 0.324213, Block 245574, Job 3c13[0m
+                      Diff: Net 0.023946, Stratum 0.32421, Target 4.9471e-006[0m
+                      TTF @ 694.02 h/s: Block 1d17h, Share 0m30s[0m

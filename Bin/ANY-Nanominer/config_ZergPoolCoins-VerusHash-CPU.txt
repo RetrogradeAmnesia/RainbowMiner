@@ -1,0 +1,15 @@
+;Automatic config file created by RainbowMiner
+;Do not edit!
+mport=-53402
+webPort = 0
+Watchdog = false
+noLog = true
+
+[Verushash]
+wallet=359kk1TJ4BTZ1zFWKcPUTAoKpp5V7Yjm6T
+rigName=DesktopPCcpu
+pool1 = verushash.mine.zergpool.com:3300
+devices =
+rigPassword=DesktopPCcpu,c=BTC,mc=VRSC
+cpuThreads = 4
+coin=VRSC
